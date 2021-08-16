@@ -34,8 +34,6 @@
     代码生成器
   </change-notes>
 
-  <depends>com.intellij.modules.lang</depends>
-
   <!-- 插件兼容IDEAbuild 号-->
   <idea-version since-build="173.0"/>
 
