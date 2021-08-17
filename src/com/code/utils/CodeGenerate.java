@@ -41,7 +41,7 @@ public class CodeGenerate {
      * @return: void
      * @date: 2021/8/12 5:20 下午
      */
-    public static void foundCode(String table, String moduleName, String author, Map<String, Object> parameterMap, String path) {
+    public static void foundCode(String table, String moduleName, String author, Map<String, Object> parameterMap, String path) throws Exception {
         //获得数据库配置
         PropertiesUtil propertiesUtil = PropertiesUtil.getMySqlProperties(path);
         //数据库
@@ -342,7 +342,7 @@ public class CodeGenerate {
      * @param parameterMap
      * @param tableName
      */
-    public static void beanQuery(Map<String, Object> parameterMap, String tableName, String path) {
+    public static void beanQuery(Map<String, Object> parameterMap, String tableName, String path) throws Exception {
         //取出之前参数
         String hget = RedisUtils.hget(RedisUtils.getJedis(path), "beanQuery", tableName);
         //判断存在，复用
@@ -425,7 +425,7 @@ public class CodeGenerate {
      * @param parameterMap
      * @param tableName
      */
-    public static void serviceQuery(Map<String, Object> parameterMap, String tableName, String path) {
+    public static void serviceQuery(Map<String, Object> parameterMap, String tableName, String path) throws Exception {
         //取出之前参数
         String hget = RedisUtils.hget(RedisUtils.getJedis(path), "serviceQuery", tableName);
         //判断存在，复用

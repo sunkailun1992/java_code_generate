@@ -35,7 +35,7 @@ public class RedisUtils {
      *
      * @return Jedis
      */
-    public static Jedis getJedis(String path) {
+    public static Jedis getJedis(String path) throws Exception {
         PropertiesUtil propertiesUtil = PropertiesUtil.getRedisProperties(path);
         // 1. 设置IP地址和端口
         Jedis jedis = new Jedis(propertiesUtil.getProperty("host"), Integer.valueOf(propertiesUtil.getProperty("port")));

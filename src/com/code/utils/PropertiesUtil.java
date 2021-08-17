@@ -9,32 +9,19 @@ public class PropertiesUtil extends Properties {
     private PropertiesUtil() {
     }
 
-    public static PropertiesUtil getMySqlProperties(String path) {
-        try {
-            propertiesUtil.load(PropertiesUtil.getInputStreamReader(path + "src/main/resources/templates/config/mysql.properties"));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+    public static PropertiesUtil getMySqlProperties(String path) throws Exception {
+        propertiesUtil.load(PropertiesUtil.getInputStreamReader(path + "src/main/resources/templates/config/mysql.properties"));
         return propertiesUtil;
     }
 
-    public static PropertiesUtil getRedisProperties(String path) {
-        try {
-            propertiesUtil.load(PropertiesUtil.getInputStreamReader(path + "src/main/resources/templates/config/redis.properties"));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+    public static PropertiesUtil getRedisProperties(String path) throws Exception {
+        propertiesUtil.load(PropertiesUtil.getInputStreamReader(path + "src/main/resources/templates/config/redis.properties"));
         return propertiesUtil;
     }
 
-    public static BufferedReader getInputStreamReader(String path) {
-        try {
-            // 使用BufferedReader流读取properties文件
-            return new BufferedReader(new FileReader(path));
-        } catch (Exception e) {
-            e.printStackTrace();
-            return null;
-        }
+    public static BufferedReader getInputStreamReader(String path) throws FileNotFoundException {
+        // 使用BufferedReader流读取properties文件
+        return new BufferedReader(new FileReader(path));
     }
 
 }
