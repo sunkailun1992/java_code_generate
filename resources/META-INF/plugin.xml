@@ -11,21 +11,21 @@
   <description>
     <![CDATA[
         <p> English: </p>
-        <p> Version: 1.0.0. </p>
-        <p> To solve code duplication, write a code generator. </p>
-        <p> in the project, please address: / SRC/main/resources/templates/configuration corresponding to the template. </p>
-        <p> in the project, please address: / SRC/main/resources/templates/config configuration database links. </p>
+        <p> Introduction: Java Code Generator,Solve the problem of writing code repeatedly. </p>
+        <p> in the project, please address: /src/main/resources/templates/configuration corresponding to the template. </p>
+        <p> in the project, please address: /src/main/resources/templates/config configuration database links. </p>
+        <p> Template file address and source address：https://github.com/sunkailun1992/java_code_generate.</p>
         <p> Enumeration class rules: (1: test 1, 2: test 2), cut brackets, and have been separated by commas, semicolon first for encoding, second for Chinese. </p>
         <p> Enumeration class rules all symbols must be Chinese symbols. </p>
         <p> If you have any questions, please contact the author at 376253703@qq.com. </p>
         <p> 中文: </p>
-        <p>版本：1.0.0。</p>
-        <p>为解决代码重复开发，编写代码生成器。</p>
-        <p>请在项目地址：/src/main/resources/templates/ 配置对应模板。</p>
-        <p>请在项目地址：/src/main/resources/templates/config  配置数据库链接。</p>
-        <p>枚举类规则：（1：测试一，2：测试二），截取括号内，并已经逗号分隔，分号第一位为编码，第二位为中文。</p>
-        <p>枚举类规则所有符号必须要中文符号</p>
-        <p>有问题联系作者邮箱：376253703@qq.com。</p>
+        <p> 介绍：java代码生成器，解决了重复编写代码的问题。</p>
+        <p> 请在项目地址：/src/main/resources/templates/ 配置对应模板。</p>
+        <p> 请在项目地址：/src/main/resources/templates/config  配置数据库链接。</p>
+        <p> 模板文件地址和源码地址：https://github.com/sunkailun1992/java_code_generate。</p>
+        <p> 枚举类规则：（1：测试一，2：测试二），截取括号内，并已经逗号分隔，分号第一位为编码，第二位为中文。</p>
+        <p> 枚举类规则所有符号必须要中文符号</p>
+        <p> 有问题联系作者邮箱：376253703@qq.com。</p>
     ]]>
   </description>
   <!-- 插件版本变更信息，支持HTML标签；
