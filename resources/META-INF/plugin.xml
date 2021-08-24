@@ -26,7 +26,7 @@
   </change-notes>
 
   <!-- 插件兼容IDEAbuild 号-->
-  <idea-version since-build="173.0"/>
+  <idea-version since-build="203.5981.155"/>
 
   <extensions defaultExtensionNs="com.intellij">
     <!-- 声明该插件对IDEA core或其他插件的扩展 -->
