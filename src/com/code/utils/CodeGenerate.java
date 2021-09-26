@@ -10,6 +10,7 @@ import freemarker.template.Template;
 import org.apache.commons.lang3.StringUtils;
 
 import java.io.File;
+import java.nio.charset.StandardCharsets;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.Statement;
@@ -83,10 +84,7 @@ public class CodeGenerate {
                 String freeMarkersName = path + "src/main/resources/templates/";
                 // 代码模板配置
                 Configuration cfg = new Configuration(Configuration.VERSION_2_3_29);
-                cfg.setEncoding(Locale.getDefault(), "UTF-8");
                 cfg.setDirectoryForTemplateLoading(new File(freeMarkersName));
-                cfg.setOutputEncoding("UTF-8");
-                cfg.setDefaultEncoding("UTF-8");
                 // 定义模板变量
                 Map<String, Object> model = Maps.newHashMap();
                 //包地址,全部转换为小写
@@ -96,11 +94,11 @@ public class CodeGenerate {
                 //大写类名,全部转为首字母大写
                 model.put("ClassName", className);
                 //作者,判断字段是否为空
-                model.put("author", author);
+                model.put("author", new String(author.getBytes(StandardCharsets.UTF_8)));
                 //获得当前时间
                 model.put("date", CodeGenerateUtils.getDate());
                 //模块名称
-                model.put("functionName", functionName);
+                model.put("functionName", new String(functionName.getBytes(StandardCharsets.UTF_8)));
                 //数据库表名
                 model.put("tableName", table_name);
                 //表数据取得list
@@ -118,8 +116,8 @@ public class CodeGenerate {
                  * 生成 mapper
                  */
                 //FreeMarkers模板地址
-                Template daoTemplate = cfg.getTemplate("skl_mapper.java.ftl","UTF-8");
-                daoTemplate.setEncoding("UTF-8");
+                Template daoTemplate = cfg.getTemplate("skl_mapper.java.ftl");
+
                 //渲染生成模板
                 String daoContent = FreeMarkers.renderTemplate(daoTemplate, model);
                 //生成的文件名称,判断如果有二号项目,生成在二号项目
@@ -176,7 +174,7 @@ public class CodeGenerate {
                          * 生成状态枚举类
                          */
                         //FreeMarkers模板地址
-                        Template beanTemplateStateEnums = cfg.getTemplate("skl_entity_enums.java.ftl","UTF-8");
+                        Template beanTemplateStateEnums = cfg.getTemplate("skl_entity_enums.java.ftl");
                         beanTemplateStateEnums.setEncoding("UTF-8");
                         //渲染生成模板
                         String beanContentStateEnums = FreeMarkers.renderTemplate(beanTemplateStateEnums, model);
@@ -194,7 +192,7 @@ public class CodeGenerate {
                  * 生成实体类
                  */
                 //FreeMarkers模板地址
-                Template beanTemplate = cfg.getTemplate("skl_entity.java.ftl","UTF-8");
+                Template beanTemplate = cfg.getTemplate("skl_entity.java.ftl");
                 beanTemplate.setEncoding("UTF-8");
                 //渲染生成模板
                 String beanContent = FreeMarkers.renderTemplate(beanTemplate, model);
@@ -209,7 +207,7 @@ public class CodeGenerate {
                  * 生成VO类
                  */
                 //FreeMarkers模板地址
-                Template beanTemplateVO = cfg.getTemplate("skl_entity_vo.java.ftl","UTF-8");
+                Template beanTemplateVO = cfg.getTemplate("skl_entity_vo.java.ftl");
                 beanTemplateVO.setEncoding("UTF-8");
                 //渲染生成模板
                 String beanContentVO = FreeMarkers.renderTemplate(beanTemplateVO, model);
@@ -224,7 +222,7 @@ public class CodeGenerate {
                  * 生成VO类
                  */
                 //FreeMarkers模板地址
-                Template beanTemplateBO = cfg.getTemplate("skl_entity_bo.java.ftl","UTF-8");
+                Template beanTemplateBO = cfg.getTemplate("skl_entity_bo.java.ftl");
                 beanTemplateBO.setEncoding("UTF-8");
                 //渲染生成模板
                 String beanContentBO = FreeMarkers.renderTemplate(beanTemplateBO, model);
@@ -239,7 +237,7 @@ public class CodeGenerate {
                  * 生成Query类
                  */
                 //FreeMarkers模板地址
-                Template beanTemplateQuery = cfg.getTemplate("skl_entity_query.java.ftl","UTF-8");
+                Template beanTemplateQuery = cfg.getTemplate("skl_entity_query.java.ftl");
                 beanTemplateQuery.setEncoding("UTF-8");
                 //渲染生成模板
                 String beanContentQuery = FreeMarkers.renderTemplate(beanTemplateQuery, model);
@@ -254,7 +252,7 @@ public class CodeGenerate {
                  * 生成 Service 代码
                  */
                 //FreeMarkers模板地址
-                Template serviceTemplate = cfg.getTemplate("skl_service.java.ftl","UTF-8");
+                Template serviceTemplate = cfg.getTemplate("skl_service.java.ftl");
                 serviceTemplate.setEncoding("UTF-8");
                 //渲染生成模板
                 String serviceContent = FreeMarkers.renderTemplate(serviceTemplate, model);
@@ -269,7 +267,7 @@ public class CodeGenerate {
                  * 生成 Service 实现代码
                  */
                 //FreeMarkers模板地址
-                Template serviceImplTemplate = cfg.getTemplate("skl_serviceImpl.java.ftl","UTF-8");
+                Template serviceImplTemplate = cfg.getTemplate("skl_serviceImpl.java.ftl");
                 serviceImplTemplate.setEncoding("UTF-8");
                 //渲染生成模板
                 String serviceI_Content = FreeMarkers.renderTemplate(serviceImplTemplate, model);
@@ -284,7 +282,7 @@ public class CodeGenerate {
                  * 生成 Service 查询代码
                  */
                 //FreeMarkers模板地址
-                Template serviceTemplateQuery = cfg.getTemplate("skl_service_query.java.ftl","UTF-8");
+                Template serviceTemplateQuery = cfg.getTemplate("skl_service_query.java.ftl");
                 serviceTemplateQuery.setEncoding("UTF-8");
                 //渲染生成模板
                 String serviceContentQuery = FreeMarkers.renderTemplate(serviceTemplateQuery, model);
@@ -300,7 +298,7 @@ public class CodeGenerate {
                  * 生成 Service 返回代码
                  */
                 //FreeMarkers模板地址
-                Template serviceTemplateResults = cfg.getTemplate("skl_service_results.java.ftl","UTF-8");
+                Template serviceTemplateResults = cfg.getTemplate("skl_service_results.java.ftl");
                 serviceTemplateResults.setEncoding("UTF-8");
                 //渲染生成模板
                 String serviceContentResults = FreeMarkers.renderTemplate(serviceTemplateResults, model);
@@ -315,7 +313,7 @@ public class CodeGenerate {
                  * 生成 Action代码
                  */
                 //FreeMarkers模板地址
-                Template actionTemplate = cfg.getTemplate("skl_controller.java.ftl","UTF-8");
+                Template actionTemplate = cfg.getTemplate("skl_controller.java.ftl");
                 actionTemplate.setEncoding("UTF-8");
                 //渲染生成模板
                 String actionContent = FreeMarkers.renderTemplate(actionTemplate, model);

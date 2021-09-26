@@ -6,6 +6,7 @@ import org.apache.commons.lang3.StringUtils;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
+import java.nio.charset.StandardCharsets;
 import java.sql.*;
 import java.text.SimpleDateFormat;
 import java.util.*;
@@ -65,15 +66,15 @@ public class CodeGenerateUtils {
                 //赋值
                 Table table = new Table();
                 //数据库无转换列名
-                table.setTypeName(String.valueOf(map.get("COLUMN_NAME")));
+                table.setTypeName(new String(String.valueOf(map.get("COLUMN_NAME")).getBytes(StandardCharsets.UTF_8)));
                 //将列名全部改为小写,凡是加_首字母大写
-                table.setColumnName(StringUtils.uncapitalize(toUpper(String.valueOf(map.get("COLUMN_NAME")))));
+                table.setColumnName(new String(StringUtils.uncapitalize(toUpper(String.valueOf(map.get("COLUMN_NAME")))).getBytes(StandardCharsets.UTF_8)));
                 //将类名改为首字母大写
-                table.setColumnNameUpper(StringUtils.capitalize(table.getColumnName()));
+                table.setColumnNameUpper(new String(StringUtils.capitalize(table.getColumnName()).getBytes(StandardCharsets.UTF_8)));
                 //设置sql的类型
-                table.setDataType(sqlType2JavaType(String.valueOf(map.get("DATA_TYPE"))));
+                table.setDataType(new String(sqlType2JavaType(String.valueOf(map.get("DATA_TYPE"))).getBytes(StandardCharsets.UTF_8)));
                 //设置注释
-                table.setColumnComment(String.valueOf(map.get("COLUMN_COMMENT")));
+                table.setColumnComment(new String(String.valueOf(map.get("COLUMN_COMMENT")).getBytes(StandardCharsets.UTF_8)));
                 list.add(table);
             }
             rs.close();
