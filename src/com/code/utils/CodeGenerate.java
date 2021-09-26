@@ -86,6 +86,7 @@ public class CodeGenerate {
                 cfg.setEncoding(Locale.getDefault(), "UTF-8");
                 cfg.setDirectoryForTemplateLoading(new File(freeMarkersName));
                 cfg.setOutputEncoding("UTF-8");
+                cfg.setDefaultEncoding("UTF-8");
                 // 定义模板变量
                 Map<String, Object> model = Maps.newHashMap();
                 //包地址,全部转换为小写
