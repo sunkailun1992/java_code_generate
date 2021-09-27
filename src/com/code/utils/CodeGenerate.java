@@ -375,52 +375,55 @@ public class CodeGenerate {
                     String type = String.valueOf(Messages.showChooseDialog("变量数据类型", "变量数据类型",values,"String", Messages.getInformationIcon()));
                     //字段名称
                     String name = Messages.showInputDialog("变量名称", "变量", Messages.getInformationIcon());
-                    //描述
-                    String description = Messages.showInputDialog("变量描述", "变量", Messages.getInformationIcon());
-                    query.setType(type);
-                    query.setName(name);
-                    query.setDescription(description);
-                    /**
-                     * 类型转换
-                     */
-                    switch (type) {
-                        case "0":
-                            query.setFormat("String");
-                            break;
-                        case "1":
-                            query.setFormat("Integer");
-                            break;
-                        case "2":
-                            query.setFormat("Double");
-                            break;
-                        case "3":
-                            query.setFormat("BigDecimal");
-                            break;
-                        case "4":
-                            query.setFormat("LocalDateTime");
-                            break;
-                        case "5":
-                            query.setFormat("Date");
-                            break;
-                        case "6":
-                            query.setFormat("Long");
-                            break;
-                        case "7":
-                            query.setFormat("byte[]");
-                            break;
-                    }
-                    /**
-                     * 判断是否重复赋值
-                     */
-                    Boolean c = true;
-                    for (BeanQuery q : mapList) {
-                        //判断传值查询
-                        if (q.getName().equals(query.getName())) {
-                            c = false;
+                    //判断字段名称不为空
+                    if(StringUtils.isNotBlank(name)) {
+                        //描述
+                        String description = Messages.showInputDialog("变量描述", "变量", Messages.getInformationIcon());
+                        query.setType(type);
+                        query.setName(name);
+                        query.setDescription(description);
+                        /**
+                         * 类型转换
+                         */
+                        switch (type) {
+                            case "0":
+                                query.setFormat("String");
+                                break;
+                            case "1":
+                                query.setFormat("Integer");
+                                break;
+                            case "2":
+                                query.setFormat("Double");
+                                break;
+                            case "3":
+                                query.setFormat("BigDecimal");
+                                break;
+                            case "4":
+                                query.setFormat("LocalDateTime");
+                                break;
+                            case "5":
+                                query.setFormat("Date");
+                                break;
+                            case "6":
+                                query.setFormat("Long");
+                                break;
+                            case "7":
+                                query.setFormat("byte[]");
+                                break;
                         }
-                    }
-                    if (c) {
-                        mapList.add(query);
+                        /**
+                         * 判断是否重复赋值
+                         */
+                        Boolean c = true;
+                        for (BeanQuery q : mapList) {
+                            //判断传值查询
+                            if (q.getName().equals(query.getName())) {
+                                c = false;
+                            }
+                        }
+                        if (c) {
+                            mapList.add(query);
+                        }
                     }
                 }
             } while (b);
@@ -457,68 +460,72 @@ public class CodeGenerate {
                     String [] values = {"等于","模糊查询","为空查询","不为空查询","in查询","notIn查询","inSql查询","notInSql查询","notInSql查询","区间查询","非该区间查询"};
                     String type = String.valueOf(Messages.showChooseDialog("查询类型", "查询类型",values,"等于", Messages.getInformationIcon()));
                     //查询的表列名
-                    String column = "`" + Messages.showInputDialog("数据库字段名称", "数据库字段", Messages.getInformationIcon()) + "`";
-                    //判断是否区间查询
-                    if (type.equals("8") || type.equals("9")) {
-                        //区间开始
-                        String start = StringUtils.capitalize(Messages.showInputDialog("传值实体类-变量名", "区间时间-开始查询", Messages.getInformationIcon()));
-                        //区间结束
-                        String end = StringUtils.capitalize(Messages.showInputDialog("传值实体类-变量名", "区间时间-结束查询", Messages.getInformationIcon()));
-                        //传值实体类字段名-是否字符串类型
-                        Boolean parameterType = Messages.showYesNoCancelDialog("是否字符串类型", "是否字符串类型", Messages.getInformationIcon()) == 0;
-                        query.setParameterType(parameterType);
-                        query.setStart(start);
-                        query.setEnd(end);
-                    }
-                    //判断是否sql查询
-                    if (type.equals("6") || type.equals("7")) {
-                        //传值实体类字段名
-                        String parameter = StringUtils.capitalize(Messages.showInputDialog("传值实体类-变量名称", "传值实体类-变量", Messages.getInformationIcon()));
-                        query.setParameter(parameter);
-                        //传值实体类字段名-是否字符串类型
-                        Boolean parameterType = Messages.showYesNoCancelDialog("是否字符串类型", "是否字符串类型", Messages.getInformationIcon()) == 0;
-                        query.setParameterType(parameterType);
-                        //执行sql
-                        String sql = Messages.showInputDialog("执行sql", "数据库语句", Messages.getInformationIcon());
-                        query.setSql("\"" + sql + "\"");
-                    }
-                    //判断传值查询
-                    if (type.equals("0") || type.equals("1") || type.equals("2") || type.equals("3") || type.equals("4") || type.equals("5")) {
-                        //传值实体类字段名
-                        String parameter = StringUtils.capitalize(Messages.showInputDialog("传值实体类-变量名称", "传值实体类-变量", Messages.getInformationIcon()));
-                        query.setParameter(parameter);
-                        //传值实体类字段名-是否字符串类型
-                        Boolean parameterType = Messages.showYesNoCancelDialog("是否字符串类型", "是否字符串类型", Messages.getInformationIcon()) == 0;
-                        query.setParameterType(parameterType);
-                    }
-                    query.setType(type);
-                    query.setColumn(column);
-                    /**
-                     * 判断是否重复赋值
-                     */
-                    Boolean c = true;
-                    for (ServiceQuery q : mapList) {
+                    String field = Messages.showInputDialog("数据库字段名称", "数据库字段", Messages.getInformationIcon());
+                    //判断是否为空
+                    if(StringUtils.isNotBlank(field)) {
+                        String column = "`" + field + "`";
                         //判断是否区间查询
                         if (type.equals("8") || type.equals("9")) {
-                            if (q.getColumn().equals(query.getColumn()) && q.getStart().equals(query.getStart()) && q.getEnd().equals(query.getEnd())) {
-                                c = false;
-                            }
+                            //区间开始
+                            String start = StringUtils.capitalize(Messages.showInputDialog("传值实体类-变量名", "区间时间-开始查询", Messages.getInformationIcon()));
+                            //区间结束
+                            String end = StringUtils.capitalize(Messages.showInputDialog("传值实体类-变量名", "区间时间-结束查询", Messages.getInformationIcon()));
+                            //传值实体类字段名-是否字符串类型
+                            Boolean parameterType = Messages.showYesNoCancelDialog("是否字符串类型", "是否字符串类型", Messages.getInformationIcon()) == 0;
+                            query.setParameterType(parameterType);
+                            query.setStart(start);
+                            query.setEnd(end);
                         }
                         //判断是否sql查询
                         if (type.equals("6") || type.equals("7")) {
-                            if (q.getColumn().equals(query.getColumn()) && q.getParameter().equals(query.getParameter()) && q.getSql().equals(query.getSql())) {
-                                c = false;
-                            }
+                            //传值实体类字段名
+                            String parameter = StringUtils.capitalize(Messages.showInputDialog("传值实体类-变量名称", "传值实体类-变量", Messages.getInformationIcon()));
+                            query.setParameter(parameter);
+                            //传值实体类字段名-是否字符串类型
+                            Boolean parameterType = Messages.showYesNoCancelDialog("是否字符串类型", "是否字符串类型", Messages.getInformationIcon()) == 0;
+                            query.setParameterType(parameterType);
+                            //执行sql
+                            String sql = Messages.showInputDialog("执行sql", "数据库语句", Messages.getInformationIcon());
+                            query.setSql("\"" + sql + "\"");
                         }
                         //判断传值查询
                         if (type.equals("0") || type.equals("1") || type.equals("2") || type.equals("3") || type.equals("4") || type.equals("5")) {
-                            if (q.getParameter().equals(query.getParameter()) && q.getColumn().equals(query.getColumn())) {
-                                c = false;
+                            //传值实体类字段名
+                            String parameter = StringUtils.capitalize(Messages.showInputDialog("传值实体类-变量名称", "传值实体类-变量", Messages.getInformationIcon()));
+                            query.setParameter(parameter);
+                            //传值实体类字段名-是否字符串类型
+                            Boolean parameterType = Messages.showYesNoCancelDialog("是否字符串类型", "是否字符串类型", Messages.getInformationIcon()) == 0;
+                            query.setParameterType(parameterType);
+                        }
+                        query.setType(type);
+                        query.setColumn(column);
+                        /**
+                         * 判断是否重复赋值
+                         */
+                        Boolean c = true;
+                        for (ServiceQuery q : mapList) {
+                            //判断是否区间查询
+                            if (type.equals("8") || type.equals("9")) {
+                                if (q.getColumn().equals(query.getColumn()) && q.getStart().equals(query.getStart()) && q.getEnd().equals(query.getEnd())) {
+                                    c = false;
+                                }
+                            }
+                            //判断是否sql查询
+                            if (type.equals("6") || type.equals("7")) {
+                                if (q.getColumn().equals(query.getColumn()) && q.getParameter().equals(query.getParameter()) && q.getSql().equals(query.getSql())) {
+                                    c = false;
+                                }
+                            }
+                            //判断传值查询
+                            if (type.equals("0") || type.equals("1") || type.equals("2") || type.equals("3") || type.equals("4") || type.equals("5")) {
+                                if (q.getParameter().equals(query.getParameter()) && q.getColumn().equals(query.getColumn())) {
+                                    c = false;
+                                }
                             }
                         }
-                    }
-                    if (c) {
-                        mapList.add(query);
+                        if (c) {
+                            mapList.add(query);
+                        }
                     }
                 }
             } while (b);

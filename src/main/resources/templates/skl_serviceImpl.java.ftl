@@ -44,6 +44,12 @@ public class ${ClassName}ServiceImpl extends ServiceImpl<${ClassName}Mapper, ${C
 
 
     /**
+     * ${functionName}
+     */
+    private ${ClassName}ServiceResults ${className}ServiceResults;
+
+
+    /**
      * 集合条件查询
      * @author  ${author}
      * @since   ${date}
@@ -54,7 +60,7 @@ public class ${ClassName}ServiceImpl extends ServiceImpl<${ClassName}Mapper, ${C
     public List<${ClassName}VO> listEnhance(${ClassName}Query ${className}Query) {
         ${ClassName} ${className} = GeneralConvertor.convertor(${className}Query, ${ClassName}.class);
         QueryWrapper<${ClassName}> queryWrapper = new QueryWrapper<>(${className});
-        //TODO 自动生成查询，禁止手动写语句
+        // TODO 自动生成查询，禁止手动写语句
         ${ClassName}ServiceQuery.query(${className}Query, queryWrapper);
         // TODO 人工查询条件
         queryArtificial(${className}Query, queryWrapper);
@@ -62,7 +68,7 @@ public class ${ClassName}ServiceImpl extends ServiceImpl<${ClassName}Mapper, ${C
         List<${ClassName}> ${className}DO = ${className}Mapper.selectList(queryWrapper);
         //VO数据
         List<${ClassName}VO> ${className}VO = GeneralConvertor.convertor(${className}DO, ${ClassName}VO.class);
-        return ${ClassName}ServiceResults.assignment(${className}VO);
+        return ${className}ServiceResults.assignment(${className}VO);
     }
 
 
@@ -85,8 +91,8 @@ public class ${ClassName}ServiceImpl extends ServiceImpl<${ClassName}Mapper, ${C
         //DO数据
         Page<${ClassName}> pageDO = ${className}Mapper.selectPage(page, queryWrapper);
         //VO数据
-        Page<${ClassName}VO> pageVO = ${ClassName}ServiceResults.toPageVO(pageDO);
-        return ${ClassName}ServiceResults.assignment(pageVO);
+        Page<${ClassName}VO> pageVO = ${className}ServiceResults.toPageVO(pageDO);
+        return ${className}ServiceResults.assignment(pageVO);
     }
 
 
@@ -109,7 +115,7 @@ public class ${ClassName}ServiceImpl extends ServiceImpl<${ClassName}Mapper, ${C
         ${ClassName} ${className}DO = ${className}Mapper.selectOne(queryWrapper);
         //VO数据
         ${ClassName}VO ${className}VO = GeneralConvertor.convertor(${className}DO, ${ClassName}VO.class);
-        return ${ClassName}ServiceResults.assignment(${className}VO);
+        return ${className}ServiceResults.assignment(${className}VO);
     }
 
 
