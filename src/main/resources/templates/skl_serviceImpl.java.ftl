@@ -50,6 +50,12 @@ public class ${ClassName}ServiceImpl extends ServiceImpl<${ClassName}Mapper, ${C
 
 
     /**
+     * ${functionName}增强条件
+     */
+    private ${ClassName}ServiceQuery ${className}ServiceQuery;
+
+
+    /**
      * 集合条件查询
      * @author  ${author}
      * @since   ${date}
@@ -61,7 +67,7 @@ public class ${ClassName}ServiceImpl extends ServiceImpl<${ClassName}Mapper, ${C
         ${ClassName} ${className} = GeneralConvertor.convertor(${className}Query, ${ClassName}.class);
         QueryWrapper<${ClassName}> queryWrapper = new QueryWrapper<>(${className});
         // TODO 自动生成查询，禁止手动写语句
-        ${ClassName}ServiceQuery.query(${className}Query, queryWrapper);
+        ${className}ServiceQuery.query(${className}Query, queryWrapper);
         // TODO 人工查询条件
         queryArtificial(${className}Query, queryWrapper);
         //DO数据
@@ -84,8 +90,8 @@ public class ${ClassName}ServiceImpl extends ServiceImpl<${ClassName}Mapper, ${C
     public Page<${ClassName}VO> pageEnhance(Page page, ${ClassName}Query ${className}Query) {
         ${ClassName} ${className} = GeneralConvertor.convertor(${className}Query, ${ClassName}.class);
         QueryWrapper<${ClassName}> queryWrapper = new QueryWrapper<>(${className});
-        //TODO 自动生成查询，禁止手动写语句
-        ${ClassName}ServiceQuery.query(${className}Query, queryWrapper);
+        // TODO 自动生成查询，禁止手动写语句
+        ${className}ServiceQuery.query(${className}Query, queryWrapper);
         // TODO 人工查询条件
         queryArtificial(${className}Query, queryWrapper);
         //DO数据
@@ -107,8 +113,8 @@ public class ${ClassName}ServiceImpl extends ServiceImpl<${ClassName}Mapper, ${C
     public ${ClassName}VO getOneEnhance(${ClassName}Query ${className}Query) {
         ${ClassName} ${className} = GeneralConvertor.convertor(${className}Query, ${ClassName}.class);
         QueryWrapper<${ClassName}> queryWrapper = new QueryWrapper<>(${className});
-        //TODO 自动生成查询，禁止手动写语句
-        ${ClassName}ServiceQuery.query(${className}Query, queryWrapper);
+        // TODO 自动生成查询，禁止手动写语句
+        ${className}ServiceQuery.query(${className}Query, queryWrapper);
         // TODO 人工查询条件
         queryArtificial(${className}Query, queryWrapper);
         //DO数据
@@ -130,8 +136,8 @@ public class ${ClassName}ServiceImpl extends ServiceImpl<${ClassName}Mapper, ${C
     public Integer countEnhance(${ClassName}Query ${className}Query) {
         ${ClassName} ${className} = GeneralConvertor.convertor(${className}Query, ${ClassName}.class);
         QueryWrapper<${ClassName}> queryWrapper = new QueryWrapper<>(${className});
-        //TODO 自动生成查询，禁止手动写语句
-        ${ClassName}ServiceQuery.query(${className}Query, queryWrapper);
+        // TODO 自动生成查询，禁止手动写语句
+        ${className}ServiceQuery.query(${className}Query, queryWrapper);
         // TODO 人工查询条件
         queryArtificial(${className}Query, queryWrapper);
         return ${className}Mapper.selectCount(queryWrapper);

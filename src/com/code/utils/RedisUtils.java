@@ -1,14 +1,12 @@
 package com.code.utils;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+
 import redis.clients.jedis.Jedis;
 
 import java.util.*;
 
 
 public class RedisUtils {
-    private static final Logger log = LoggerFactory.getLogger(RedisUtils.class);
 
     /**
      * Jedis实例获取返回码
@@ -73,7 +71,7 @@ public class RedisUtils {
         try {
             result = jedis.set(key, value);
         } catch (Exception e) {
-            log.error("设置值失败：" + e.getMessage(), e);
+            System.err.printf("设置值失败：" + e.getMessage());
         } finally {
             returnResource(jedis);
         }
@@ -100,7 +98,7 @@ public class RedisUtils {
             result = jedis.set(key, value);
             jedis.expire(key, expire);
         } catch (Exception e) {
-            log.error("设置值失败：" + e.getMessage(), e);
+            System.err.printf("设置值失败：" + e.getMessage());
         } finally {
             returnResource(jedis);
         }
@@ -124,7 +122,7 @@ public class RedisUtils {
         try {
             result = jedis.get(key);
         } catch (Exception e) {
-            log.error("获取值失败：" + e.getMessage(), e);
+            System.err.printf("获取值失败：" + e.getMessage());
         } finally {
             returnResource(jedis);
         }
@@ -149,7 +147,7 @@ public class RedisUtils {
         try {
             result = jedis.expire(key, seconds);
         } catch (Exception e) {
-            log.error(String.format("设置key=%s的过期时间失败：" + e.getMessage(), key), e);
+            System.err.printf(String.format("设置key=%s的过期时间失败：" + e.getMessage(), key));
         } finally {
             returnResource(jedis);
         }
@@ -166,7 +164,7 @@ public class RedisUtils {
      */
     public static boolean exists(Jedis jedis, String key) {
         if (jedis == null) {
-            log.warn("Jedis实例获取为空");
+            System.err.printf("Jedis实例获取为空");
             return false;
         }
 
@@ -174,7 +172,7 @@ public class RedisUtils {
         try {
             result = jedis.exists(key);
         } catch (Exception e) {
-            log.error(String.format("判断key=%s是否存在失败：" + e.getMessage(), key), e);
+            System.err.printf(String.format("判断key=%s是否存在失败：" + e.getMessage(), key));
         } finally {
             returnResource(jedis);
         }
@@ -198,7 +196,7 @@ public class RedisUtils {
         try {
             result = jedis.del(keys);
         } catch (Exception e) {
-            log.error(String.format("删除key=%s失败：" + e.getMessage(), keys), e);
+            System.err.printf(String.format("删除key=%s失败：" + e.getMessage(), keys));
         } finally {
             returnResource(jedis);
         }
@@ -224,7 +222,7 @@ public class RedisUtils {
         try {
             result = jedis.setnx(key, value);
         } catch (Exception e) {
-            log.error("设置值失败：" + e.getMessage(), e);
+            System.err.printf("设置值失败：" + e.getMessage());
         } finally {
             returnResource(jedis);
         }
@@ -252,7 +250,7 @@ public class RedisUtils {
             result = jedis.setnx(key, value);
             jedis.expire(key, expire);
         } catch (Exception e) {
-            log.error("设置值失败：" + e.getMessage(), e);
+            System.err.printf("设置值失败：" + e.getMessage());
         } finally {
             returnResource(jedis);
         }
@@ -278,7 +276,7 @@ public class RedisUtils {
         try {
             result = jedis.lpush(key, values);
         } catch (Exception e) {
-            log.error("在列表key的头部插入元素失败：" + e.getMessage(), e);
+            System.err.printf("在列表key的头部插入元素失败：" + e.getMessage());
         } finally {
             returnResource(jedis);
         }
@@ -304,7 +302,7 @@ public class RedisUtils {
         try {
             result = jedis.rpush(key, values);
         } catch (Exception e) {
-            log.error("在列表key的尾部插入元素失败：" + e.getMessage(), e);
+            System.err.printf("在列表key的尾部插入元素失败：" + e.getMessage());
         } finally {
             returnResource(jedis);
         }
@@ -330,7 +328,7 @@ public class RedisUtils {
         try {
             result = jedis.lrange(key, start, end);
         } catch (Exception e) {
-            log.error("查询列表元素失败：" + e.getMessage(), e);
+            System.err.printf("查询列表元素失败：" + e.getMessage());
         } finally {
             returnResource(jedis);
         }
@@ -355,7 +353,7 @@ public class RedisUtils {
         try {
             result = jedis.llen(key);
         } catch (Exception e) {
-            log.error("获取列表长度失败：" + e.getMessage(), e);
+            System.err.printf("获取列表长度失败：" + e.getMessage());
         } finally {
             returnResource(jedis);
         }
@@ -384,7 +382,7 @@ public class RedisUtils {
         try {
             result = jedis.lrem(key, count, value);
         } catch (Exception e) {
-            log.error("获取列表长度失败：" + e.getMessage(), e);
+            System.err.printf("获取列表长度失败：" + e.getMessage());
         } finally {
             returnResource(jedis);
         }
@@ -410,7 +408,7 @@ public class RedisUtils {
         try {
             result = jedis.ltrim(key, start, end);
         } catch (Exception e) {
-            log.error("获取列表长度失败：" + e.getMessage(), e);
+            System.err.printf("获取列表长度失败：" + e.getMessage());
         } finally {
             returnResource(jedis);
         }
@@ -437,7 +435,7 @@ public class RedisUtils {
         try {
             result = jedis.hset(key, field, value);
         } catch (Exception e) {
-            log.error("缓存Map赋值失败：" + e.getMessage(), e);
+            System.err.printf("缓存Map赋值失败：" + e.getMessage());
         } finally {
             returnResource(jedis);
         }
@@ -461,7 +459,7 @@ public class RedisUtils {
         try {
             result = jedis.hget(key, field);
         } catch (Exception e) {
-            log.error("获取缓存的Map值失败：" + e.getMessage(), e);
+            System.err.printf("获取缓存的Map值失败：" + e.getMessage());
         } finally {
             returnResource(jedis);
         }
@@ -480,14 +478,14 @@ public class RedisUtils {
         Map<String, String> map = new HashMap<String, String>();
 
         if (jedis == null) {
-            log.warn("Jedis实例获取为空");
+            System.err.printf("Jedis实例获取为空");
             return map;
         }
 
         try {
             map = jedis.hgetAll(key);
         } catch (Exception e) {
-            log.error("获取map所有的字段和值失败：" + e.getMessage(), e);
+            System.err.printf("获取map所有的字段和值失败：" + e.getMessage());
         } finally {
             returnResource(jedis);
         }
@@ -505,14 +503,14 @@ public class RedisUtils {
      */
     public static Boolean hexists(Jedis jedis, String key, String field) {
         if (jedis == null) {
-            log.warn("Jedis实例获取为空");
+            System.err.printf("Jedis实例获取为空");
             return null;
         }
 
         try {
             return jedis.hexists(key, field);
         } catch (Exception e) {
-            log.error("查看哈希表field字段是否存在失败：" + e.getMessage(), e);
+            System.err.printf("查看哈希表field字段是否存在失败：" + e.getMessage());
         } finally {
             returnResource(jedis);
         }
@@ -530,14 +528,14 @@ public class RedisUtils {
     public static Set<String> hkeys(Jedis jedis, String key) {
         Set<String> set = new HashSet<String>();
         if (jedis == null) {
-            log.warn("Jedis实例获取为空");
+            System.err.printf("Jedis实例获取为空");
             return set;
         }
 
         try {
             return jedis.hkeys(key);
         } catch (Exception e) {
-            log.error("获取所有哈希表中的字段失败：" + e.getMessage(), e);
+            System.err.printf("获取所有哈希表中的字段失败：" + e.getMessage());
         } finally {
             returnResource(jedis);
         }
@@ -555,14 +553,14 @@ public class RedisUtils {
     public static List<String> hvals(Jedis jedis, String key) {
         List<String> list = new ArrayList<String>();
         if (jedis == null) {
-            log.warn("Jedis实例获取为空");
+            System.err.printf("Jedis实例获取为空");
             return list;
         }
 
         try {
             return jedis.hvals(key);
         } catch (Exception e) {
-            log.error("获取所有哈希表中的值失败：" + e.getMessage(), e);
+            System.err.printf("获取所有哈希表中的值失败：" + e.getMessage());
         } finally {
             returnResource(jedis);
         }
@@ -580,14 +578,14 @@ public class RedisUtils {
      */
     public static long hdel(Jedis jedis, String key, String... fields) {
         if (jedis == null) {
-            log.warn("Jedis实例获取为空");
+            System.err.printf("Jedis实例获取为空");
             return JedisStatus.FAIL_LONG;
         }
 
         try {
             return jedis.hdel(key, fields);
         } catch (Exception e) {
-            log.error("map删除指定的field失败：" + e.getMessage(), e);
+            System.err.printf("map删除指定的field失败：" + e.getMessage());
         } finally {
             returnResource(jedis);
         }
@@ -598,14 +596,14 @@ public class RedisUtils {
     public static Set<String> keys(Jedis jedis, String pattern) {
         Set<String> keyList = new HashSet<String>();
         if (jedis == null) {
-            log.warn("Jedis实例获取为空");
+            System.err.printf("Jedis实例获取为空");
             return keyList;
         }
 
         try {
             keyList = jedis.keys(pattern);
         } catch (Exception e) {
-            log.error("操作keys失败：" + e.getMessage(), e);
+            System.err.printf("操作keys失败：" + e.getMessage());
         } finally {
             returnResource(jedis);
         }

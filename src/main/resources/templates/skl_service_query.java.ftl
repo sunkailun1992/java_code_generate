@@ -5,6 +5,7 @@ import ${packageName}.entity.query.${ClassName}Query;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
+import org.springframework.stereotype.Service;
 import org.springframework.beans.factory.annotation.Autowired;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 
@@ -17,6 +18,7 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
  * @source:  	    代码生成器
  */
 @Slf4j
+@Service
 @Setter(onMethod_ = {@Autowired})
 public class ${ClassName}ServiceQuery{
 
@@ -29,7 +31,7 @@ public class ${ClassName}ServiceQuery{
 	 * @param       ${className}Query ${functionName}
 	 * @return      QueryWrapper
 	 */
-    public static QueryWrapper query(${ClassName}Query ${className}Query, QueryWrapper<${ClassName}> queryWrapper) {
+    public QueryWrapper query(${ClassName}Query ${className}Query, QueryWrapper<${ClassName}> queryWrapper) {
         /**
          * 排序
          */

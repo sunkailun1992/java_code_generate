@@ -3,6 +3,7 @@ package ${packageName}.entity;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
+import java.time.LocalDateTime;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
@@ -10,7 +11,6 @@ import org.springframework.format.annotation.DateTimeFormat;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.baomidou.mybatisplus.annotation.*;
 <#list enumsList as e>
-import ${packageName}.entity.enums.${ClassName}${e.bigName}Enum;
 import ${packageName}.entity.enums.${ClassName}${e.bigName}Enum;
 </#list>
 import com.gb.bean.EntityBase;
