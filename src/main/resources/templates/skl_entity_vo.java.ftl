@@ -9,7 +9,7 @@ import io.swagger.annotations.ApiModelProperty;
 import org.springframework.format.annotation.DateTimeFormat;
 import com.fasterxml.jackson.annotation.JsonFormat;
 <#list enumsList as e>
-    import ${packageName}.entity.enums.${ClassName}${e.bigName}Enum;
+import ${packageName}.entity.enums.${ClassName}${e.bigName}Enum;
 </#list>
 
 <#assign b = 0>
@@ -30,7 +30,6 @@ public class ${ClassName}VO implements Serializable {
     @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
     </#if>
-    @ApiModelProperty(value = "${item.columnComment}")
     <#list enumsList as e>
         <#if item.columnName == e.smallName>
     private ${ClassName}${e.bigName}Enum ${item.columnName};
