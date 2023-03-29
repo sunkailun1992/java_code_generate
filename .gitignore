@@ -1,2 +1,3 @@
-out/*
-java_code_generate.zip
+build/*
+.gradle/*
+.idea/*
