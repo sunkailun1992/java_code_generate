@@ -1,0 +1,3106 @@
+<component name="libraryTable">
+  <library name="Gradle: bouncycastle:bcmail-jdk14:138" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/bouncycastle/bcmail-jdk14/138/bcmail-jdk14-138.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: bouncycastle:bcprov-jdk14:138" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/bouncycastle/bcprov-jdk14/138/bcprov-jdk14-138.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: ch.qos.logback:logback-classic:1.2.3" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+  <library name="Gradle: ch.qos.logback:logback-core:1.2.3" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+  <library name="Gradle: cn.hutool:hutool-all:5.8.0.M3" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.8.0.M3/hutool-all-5.8.0.M3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-config:2.2.1.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/cloud/spring-cloud-starter-alibaba-nacos-config/2.2.1.RELEASE/spring-cloud-starter-alibaba-nacos-config-2.2.1.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:2.2.1.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/cloud/spring-cloud-starter-alibaba-nacos-discovery/2.2.1.RELEASE/spring-cloud-starter-alibaba-nacos-discovery-2.2.1.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.alibaba.dauth:sdk-client:1.2.3" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/dauth/sdk-client/1.2.3/sdk-client-1.2.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.alibaba.nacos:nacos-api:1.2.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/nacos/nacos-api/1.2.1/nacos-api-1.2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.alibaba.nacos:nacos-client:1.2.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/nacos/nacos-client/1.2.1/nacos-client-1.2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.alibaba.nacos:nacos-common:1.2.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/nacos/nacos-common/1.2.1/nacos-common-1.2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.alibaba.spring:spring-context-support:1.0.6" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/spring/spring-context-support/1.0.6/spring-context-support-1.0.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.alibaba:druid-spring-boot-starter:1.2.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/druid-spring-boot-starter/1.2.2/druid-spring-boot-starter-1.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.alibaba:druid:1.2.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.2.2/druid-1.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.alibaba:fastjson:1.2.75" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.75/fastjson-1.2.75.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.alibaba:transmittable-thread-local:2.12.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/transmittable-thread-local/2.12.1/transmittable-thread-local-2.12.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.aliyun.openservices:aliyun-log-logback-appender:0.1.18" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/aliyun/openservices/aliyun-log-logback-appender/0.1.18/aliyun-log-logback-appender-0.1.18.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.aliyun.openservices:aliyun-log-producer:0.3.8" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/aliyun/openservices/aliyun-log-producer/0.3.8/aliyun-log-producer-0.3.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.aliyun.openservices:aliyun-log:0.6.57" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/aliyun/openservices/aliyun-log/0.6.57/aliyun-log-0.6.57.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.aliyun.oss:aliyun-sdk-oss:3.10.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/aliyun/oss/aliyun-sdk-oss/3.10.2/aliyun-sdk-oss-3.10.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.aliyun.schedulerx:schedulerx2-spring-boot-starter:1.2.4.3" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/aliyun/schedulerx/schedulerx2-spring-boot-starter/1.2.4.3/schedulerx2-spring-boot-starter-1.2.4.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.aliyun.schedulerx:schedulerx2-worker:1.2.4.3" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/aliyun/schedulerx/schedulerx2-worker/1.2.4.3/schedulerx2-worker-1.2.4.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.aliyun:aliyun-java-sdk-core:4.6.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/aliyun/aliyun-java-sdk-core/4.6.0/aliyun-java-sdk-core-4.6.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.aliyun:aliyun-java-sdk-ecs:4.2.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/aliyun/aliyun-java-sdk-ecs/4.2.0/aliyun-java-sdk-ecs-4.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.aliyun:aliyun-java-sdk-fnf:1.8.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/aliyun/aliyun-java-sdk-fnf/1.8.0/aliyun-java-sdk-fnf-1.8.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.aliyun:aliyun-java-sdk-kms:2.7.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/aliyun/aliyun-java-sdk-kms/2.7.0/aliyun-java-sdk-kms-2.7.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.aliyun:aliyun-java-sdk-ram:3.0.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/aliyun/aliyun-java-sdk-ram/3.0.0/aliyun-java-sdk-ram-3.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.aliyun:aliyun-java-sdk-sts:3.0.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/aliyun/aliyun-java-sdk-sts/3.0.0/aliyun-java-sdk-sts-3.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.baomidou:dynamic-datasource-spring-boot-starter:3.5.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/baomidou/dynamic-datasource-spring-boot-starter/3.5.1/dynamic-datasource-spring-boot-starter-3.5.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.baomidou:mybatis-mate-annotation:1.2.3" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-mate-annotation/1.2.3/mybatis-mate-annotation-1.2.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.baomidou:mybatis-mate-starter:1.2.3" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-mate-starter/1.2.3/mybatis-mate-starter-1.2.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.baomidou:mybatis-plus-annotation:3.5.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-annotation/3.5.1/mybatis-plus-annotation-3.5.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.baomidou:mybatis-plus-boot-starter:3.5.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-boot-starter/3.5.1/mybatis-plus-boot-starter-3.5.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.baomidou:mybatis-plus-core:3.5.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.5.1/mybatis-plus-core-3.5.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.baomidou:mybatis-plus-extension:3.5.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.5.1/mybatis-plus-extension-3.5.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.baomidou:mybatis-plus-generator:3.5.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-generator/3.5.1/mybatis-plus-generator-3.5.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.baomidou:mybatis-plus:3.5.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus/3.5.1/mybatis-plus-3.5.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.beust:jcommander:1.72" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/beust/jcommander/1.72/jcommander-1.72.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.carrotsearch:hppc:0.7.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/carrotsearch/hppc/0.7.1/hppc-0.7.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.carrotsearch:java-sizeof:0.0.5" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/carrotsearch/java-sizeof/0.0.5/java-sizeof-0.0.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.10.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.10.2/jackson-annotations-2.10.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.fasterxml.jackson.core:jackson-core:2.10.2" __external-system-id="GRADLE">
+    <ANNOTATIONS>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/externalAnnotations/com/fasterxml/jackson/core/jackson-core/2.9.6-an1/jackson-core-2.9.6-an1-annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.10.2/jackson-core-2.10.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.10.2" __external-system-id="GRADLE">
+    <ANNOTATIONS>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/externalAnnotations/com/fasterxml/jackson/core/jackson-databind/2.9.6-an1/jackson-databind-2.9.6-an1-annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.10.2/jackson-databind-2.10.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.10.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.10.2/jackson-dataformat-cbor-2.10.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.fasterxml.jackson.dataformat:jackson-dataformat-smile:2.10.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.10.2/jackson-dataformat-smile-2.10.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.10.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.10.2/jackson-dataformat-yaml-2.10.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.10.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.2/jackson-datatype-jdk8-2.10.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.10.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.10.2/jackson-datatype-jsr310-2.10.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.fasterxml.jackson.module:jackson-module-parameter-names:2.10.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/module/jackson-module-parameter-names/2.10.2/jackson-module-parameter-names-2.10.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.fasterxml:classmate:1.5.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.gbw:utils:3.5.13" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/gbw/utils/3.5.13/utils-3.5.13.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.getui.push:restful-sdk:1.0.0.4" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/getui/push/restful-sdk/1.0.0.4/restful-sdk-1.0.0.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.github.dozermapper:dozer-core:6.5.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/dozermapper/dozer-core/6.5.0/dozer-core-6.5.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.github.jsqlparser:jsqlparser:4.3" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/jsqlparser/jsqlparser/4.3/jsqlparser-4.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.github.spullara.mustache.java:compiler:0.9.3" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/spullara/mustache/java/compiler/0.9.3/compiler-0.9.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.github.virtuald:curvesapi:1.06" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.github.wxpay:wxpay-sdk:0.0.3" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/wxpay/wxpay-sdk/0.0.3/wxpay-sdk-0.0.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.github.xiaoymin:knife4j-annotations:3.0.3" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/xiaoymin/knife4j-annotations/3.0.3/knife4j-annotations-3.0.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.github.xiaoymin:knife4j-core:3.0.3" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/xiaoymin/knife4j-core/3.0.3/knife4j-core-3.0.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.github.xiaoymin:knife4j-spring-boot-autoconfigure:3.0.3" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/xiaoymin/knife4j-spring-boot-autoconfigure/3.0.3/knife4j-spring-boot-autoconfigure-3.0.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.github.xiaoymin:knife4j-spring-boot-starter:3.0.3" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/xiaoymin/knife4j-spring-boot-starter/3.0.3/knife4j-spring-boot-starter-3.0.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.github.xiaoymin:knife4j-spring-ui:3.0.3" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/xiaoymin/knife4j-spring-ui/3.0.3/knife4j-spring-ui-3.0.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.github.xiaoymin:knife4j-spring:3.0.3" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/xiaoymin/knife4j-spring/3.0.3/knife4j-spring-3.0.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.google.code.findbugs:jsr305:3.0.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.google.code.gson:gson:2.8.6" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.google.errorprone:error_prone_annotations:2.2.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+  <library name="Gradle: com.google.guava:failureaccess:1.0.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+  <library name="Gradle: com.google.guava:guava:27.0.1-jre" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/27.0.1-jre/guava-27.0.1-jre.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/27.0.1-jre/guava-27.0.1-jre-sources.jar!/" />
+    </SOURCES>
+  </library>
+  <library name="Gradle: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.google.j2objc:j2objc-annotations:1.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.google.protobuf:protobuf-java:2.5.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.google.zxing:core:3.3.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/zxing/core/3.3.0/core-3.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.googlecode.aviator:aviator:5.0.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/googlecode/aviator/aviator/5.0.1/aviator-5.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.itextpdf:io:7.1.8" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/itextpdf/io/7.1.8/io-7.1.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.itextpdf:itext-asian:5.2.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/itextpdf/itext-asian/5.2.0/itext-asian-5.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.itextpdf:itextpdf:5.5.13" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/itextpdf/itextpdf/5.5.13/itextpdf-5.5.13.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.itextpdf:kernel:7.1.8" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/itextpdf/kernel/7.1.8/kernel-7.1.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.jayway.jsonpath:json-path:2.4.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+  <library name="Gradle: com.lowagie:itext:2.1.7" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/lowagie/itext/2.1.7/itext-2.1.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.netflix.archaius:archaius-core:0.7.6" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/netflix/archaius/archaius-core/0.7.6/archaius-core-0.7.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.netflix.hystrix:hystrix-core:1.5.18" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-core/1.5.18/hystrix-core-1.5.18.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.netflix.netflix-commons:netflix-commons-util:0.1.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/netflix/netflix-commons/netflix-commons-util/0.1.1/netflix-commons-util-0.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/netflix/netflix-commons/netflix-commons-util/0.1.1/netflix-commons-util-0.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+  <library name="Gradle: com.netflix.netflix-commons:netflix-statistics:0.1.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/netflix/netflix-commons/netflix-statistics/0.1.1/netflix-statistics-0.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/netflix/netflix-commons/netflix-statistics/0.1.1/netflix-statistics-0.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+  <library name="Gradle: com.netflix.ribbon:ribbon-core:2.3.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-core/2.3.0/ribbon-core-2.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.netflix.ribbon:ribbon-httpclient:2.3.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-httpclient/2.3.0/ribbon-httpclient-2.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.netflix.ribbon:ribbon-loadbalancer:2.3.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.netflix.ribbon:ribbon-transport:2.3.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon-transport/2.3.0/ribbon-transport-2.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.netflix.ribbon:ribbon:2.3.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/netflix/ribbon/ribbon/2.3.0/ribbon-2.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.netflix.servo:servo-core:0.10.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/netflix/servo/servo-core/0.10.1/servo-core-0.10.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/netflix/servo/servo-core/0.10.1/servo-core-0.10.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+  <library name="Gradle: com.netflix.servo:servo-internal:0.10.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/netflix/servo/servo-internal/0.10.1/servo-internal-0.10.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/netflix/servo/servo-internal/0.10.1/servo-internal-0.10.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+  <library name="Gradle: com.rabbitmq:amqp-client:5.7.3" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/5.7.3/amqp-client-5.7.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.squareup.okhttp3:okhttp:3.14.7" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/squareup/okhttp3/okhttp/3.14.7/okhttp-3.14.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.squareup.okio:okio:1.17.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/squareup/okio/okio/1.17.2/okio-1.17.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.sun.istack:istack-commons-runtime:3.0.8" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/sun/istack/istack-commons-runtime/3.0.8/istack-commons-runtime-3.0.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.sun.jersey.contribs:jersey-apache-client4:1.19.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/contribs/jersey-apache-client4/1.19.1/jersey-apache-client4-1.19.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/contribs/jersey-apache-client4/1.19.1/jersey-apache-client4-1.19.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+  <library name="Gradle: com.sun.jersey:jersey-client:1.19.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-client/1.19.1/jersey-client-1.19.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-client/1.19.1/jersey-client-1.19.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+  <library name="Gradle: com.sun.jersey:jersey-core:1.19.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-core/1.19.1/jersey-core-1.19.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-core/1.19.1/jersey-core-1.19.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+  <library name="Gradle: com.sun.xml.fastinfoset:FastInfoset:1.2.16" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/sun/xml/fastinfoset/FastInfoset/1.2.16/FastInfoset-1.2.16.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.taobao.diamond:diamond-client:edas-3.7.3" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/taobao/diamond/diamond-client/edas-3.7.3/diamond-client-edas-3.7.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.taobao.diamond:diamond-utils:3.2.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/taobao/diamond/diamond-utils/3.2.0/diamond-utils-3.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.taobao.middleware:logger.api:0.2.7" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/taobao/middleware/logger.api/0.2.7/logger.api-0.2.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.taobao.middleware:logger.core:0.2.7" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/taobao/middleware/logger.core/0.2.7/logger.core-0.2.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.taobao.middleware:logger.pandolet:0.2.7" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/taobao/middleware/logger.pandolet/0.2.7/logger.pandolet-0.2.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.taobao.txc:txc-client-springcloud:2.8.65" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/taobao/txc/txc-client-springcloud/2.8.65/txc-client-springcloud-2.8.65.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.taobao.txc:txc-client:2.8.65" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/taobao/txc/txc-client/2.8.65/txc-client-2.8.65.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.tdunning:t-digest:3.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/tdunning/t-digest/3.2/t-digest-3.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.thoughtworks.paranamer:paranamer:2.8" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.thoughtworks.qdox:qdox:1.12.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/thoughtworks/qdox/qdox/1.12.1/qdox-1.12.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.vaadin.external.google:android-json:0.0.20131108.vaadin1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1-sources.jar!/" />
+    </SOURCES>
+  </library>
+  <library name="Gradle: com.zaxxer:HikariCP:3.4.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/zaxxer/HikariCP/3.4.2/HikariCP-3.4.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: com.zaxxer:SparseBitSet:1.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: commons-beanutils:commons-beanutils:1.9.3" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+  <library name="Gradle: commons-codec:commons-codec:1.13" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.13/commons-codec-1.13.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: commons-collections:commons-collections:3.2.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+  <library name="Gradle: commons-configuration:commons-configuration:1.8" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/commons-configuration/commons-configuration/1.8/commons-configuration-1.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/commons-configuration/commons-configuration/1.8/commons-configuration-1.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+  <library name="Gradle: commons-fileupload:commons-fileupload:1.4" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/commons-fileupload/commons-fileupload/1.4/commons-fileupload-1.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: commons-io:commons-io:2.5" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.5/commons-io-2.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.5/commons-io-2.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+  <library name="Gradle: commons-lang:commons-lang:2.6" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.6/commons-lang-2.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+  <library name="Gradle: commons-logging:commons-logging:1.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.2/commons-logging-1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+  <library name="Gradle: de.ruedigermoeller:fst:2.57" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/de/ruedigermoeller/fst/2.57/fst-2.57.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: esigntech-sdk-smUtil:esigntech-sdk-smUtil:1.3.3.2149" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/esigntech-sdk-smUtil/esigntech-sdk-smUtil/1.3.3.2149/esigntech-sdk-smUtil-1.3.3.2149.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: esigntech-sdk-utils:esigntech-sdk-utils:3.0.6.2150" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/esigntech-sdk-utils/esigntech-sdk-utils/3.0.6.2150/esigntech-sdk-utils-3.0.6.2150.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: esigntech-sdk:esigntech-sdk:2.1.50" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/esigntech-sdk/esigntech-sdk/2.1.50/esigntech-sdk-2.1.50.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: esigntech-tgtext:esigntech-tgtext:3.3.64.2150" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/esigntech-tgtext/esigntech-tgtext/3.3.64.2150/esigntech-tgtext-3.3.64.2150.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: info.picocli:picocli:4.0.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/info/picocli/picocli/4.0.1/picocli-4.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.github.classgraph:classgraph:4.8.83" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/github/classgraph/classgraph/4.8.83/classgraph-4.8.83.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.github.openfeign.form:feign-form-spring:3.8.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/github/openfeign/form/feign-form-spring/3.8.0/feign-form-spring-3.8.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.github.openfeign.form:feign-form:3.8.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/github/openfeign/form/feign-form/3.8.0/feign-form-3.8.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.github.openfeign:feign-core:10.7.4" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/10.7.4/feign-core-10.7.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.github.openfeign:feign-hystrix:10.7.4" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-hystrix/10.7.4/feign-hystrix-10.7.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.github.openfeign:feign-okhttp:10.7.4" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-okhttp/10.7.4/feign-okhttp-10.7.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.github.openfeign:feign-slf4j:10.7.4" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-slf4j/10.7.4/feign-slf4j-10.7.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.jsonwebtoken:jjwt:0.9.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.lettuce:lettuce-core:5.2.2.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/lettuce/lettuce-core/5.2.2.RELEASE/lettuce-core-5.2.2.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.micrometer:micrometer-core:1.3.5" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/micrometer/micrometer-core/1.3.5/micrometer-core-1.3.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.netty:netty-all:4.1.45.Final" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.45.Final/netty-all-4.1.45.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.netty:netty-buffer:4.1.45.Final" __external-system-id="GRADLE">
+    <ANNOTATIONS>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/externalAnnotations/io/netty/netty-buffer/4.1.27.Final-an1/netty-buffer-4.1.27.Final-an1-annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-buffer/4.1.45.Final/netty-buffer-4.1.45.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.netty:netty-codec-dns:4.1.45.Final" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-dns/4.1.45.Final/netty-codec-dns-4.1.45.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.netty:netty-codec-http:4.1.45.Final" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-http/4.1.45.Final/netty-codec-http-4.1.45.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.netty:netty-codec:4.1.45.Final" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-codec/4.1.45.Final/netty-codec-4.1.45.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.netty:netty-common:4.1.45.Final" __external-system-id="GRADLE">
+    <ANNOTATIONS>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/externalAnnotations/io/netty/netty-common/4.1.27.Final-an1/netty-common-4.1.27.Final-an1-annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-common/4.1.45.Final/netty-common-4.1.45.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.netty:netty-handler:4.1.45.Final" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-handler/4.1.45.Final/netty-handler-4.1.45.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.netty:netty-resolver-dns:4.1.45.Final" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver-dns/4.1.45.Final/netty-resolver-dns-4.1.45.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.netty:netty-resolver:4.1.45.Final" __external-system-id="GRADLE">
+    <ANNOTATIONS>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/externalAnnotations/io/netty/netty-resolver/4.1.27.Final-an1/netty-resolver-4.1.27.Final-an1-annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver/4.1.45.Final/netty-resolver-4.1.45.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.netty:netty-transport:4.1.45.Final" __external-system-id="GRADLE">
+    <ANNOTATIONS>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/externalAnnotations/io/netty/netty-transport/4.1.27.Final-an1/netty-transport-4.1.27.Final-an1-annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.45.Final/netty-transport-4.1.45.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.opentracing:opentracing-api:0.33.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/opentracing/opentracing-api/0.33.0/opentracing-api-0.33.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.opentracing:opentracing-noop:0.33.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/opentracing/opentracing-noop/0.33.0/opentracing-noop-0.33.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.opentracing:opentracing-util:0.33.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/opentracing/opentracing-util/0.33.0/opentracing-util-0.33.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.projectreactor:reactor-core:3.3.3.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/projectreactor/reactor-core/3.3.3.RELEASE/reactor-core-3.3.3.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.prometheus:simpleclient:0.5.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/prometheus/simpleclient/0.5.0/simpleclient-0.5.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.reactivex.rxjava2:rxjava:2.2.18" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava2/rxjava/2.2.18/rxjava-2.2.18.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.reactivex:rxjava:1.3.8" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.3.8/rxjava-1.3.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.3.8/rxjava-1.3.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+  <library name="Gradle: io.reactivex:rxnetty-contexts:0.4.9" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/reactivex/rxnetty-contexts/0.4.9/rxnetty-contexts-0.4.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/reactivex/rxnetty-contexts/0.4.9/rxnetty-contexts-0.4.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+  <library name="Gradle: io.reactivex:rxnetty-servo:0.4.9" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/reactivex/rxnetty-servo/0.4.9/rxnetty-servo-0.4.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/reactivex/rxnetty-servo/0.4.9/rxnetty-servo-0.4.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+  <library name="Gradle: io.reactivex:rxnetty:0.4.9" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/reactivex/rxnetty/0.4.9/rxnetty-0.4.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/reactivex/rxnetty/0.4.9/rxnetty-0.4.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+  <library name="Gradle: io.springfox:springfox-bean-validators:3.0.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-bean-validators/3.0.0/springfox-bean-validators-3.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.springfox:springfox-boot-starter:3.0.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-boot-starter/3.0.0/springfox-boot-starter-3.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.springfox:springfox-core:3.0.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-core/3.0.0/springfox-core-3.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.springfox:springfox-data-rest:3.0.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-data-rest/3.0.0/springfox-data-rest-3.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.springfox:springfox-oas:3.0.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-oas/3.0.0/springfox-oas-3.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.springfox:springfox-schema:3.0.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-schema/3.0.0/springfox-schema-3.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.springfox:springfox-spi:3.0.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-spi/3.0.0/springfox-spi-3.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.springfox:springfox-spring-web:3.0.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-spring-web/3.0.0/springfox-spring-web-3.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.springfox:springfox-spring-webflux:3.0.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-spring-webflux/3.0.0/springfox-spring-webflux-3.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.springfox:springfox-spring-webmvc:3.0.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-spring-webmvc/3.0.0/springfox-spring-webmvc-3.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.springfox:springfox-swagger-common:3.0.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-swagger-common/3.0.0/springfox-swagger-common-3.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.springfox:springfox-swagger-ui:3.0.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-swagger-ui/3.0.0/springfox-swagger-ui-3.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.springfox:springfox-swagger2:3.0.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-swagger2/3.0.0/springfox-swagger2-3.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.swagger.core.v3:swagger-annotations:2.1.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/swagger/core/v3/swagger-annotations/2.1.2/swagger-annotations-2.1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.swagger.core.v3:swagger-models:2.1.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/swagger/core/v3/swagger-models/2.1.2/swagger-models-2.1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.swagger:swagger-annotations:1.5.22" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/swagger/swagger-annotations/1.5.22/swagger-annotations-1.5.22.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.swagger:swagger-core:1.5.22" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/swagger/swagger-core/1.5.22/swagger-core-1.5.22.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.swagger:swagger-models:1.5.22" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/swagger/swagger-models/1.5.22/swagger-models-1.5.22.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.zipkin.brave:brave-context-log4j2:5.10.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave-context-log4j2/5.10.1/brave-context-log4j2-5.10.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.zipkin.brave:brave-instrumentation-http:5.10.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave-instrumentation-http/5.10.1/brave-instrumentation-http-5.10.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.zipkin.brave:brave-instrumentation-httpasyncclient:5.10.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave-instrumentation-httpasyncclient/5.10.1/brave-instrumentation-httpasyncclient-5.10.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.zipkin.brave:brave-instrumentation-httpclient:5.10.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave-instrumentation-httpclient/5.10.1/brave-instrumentation-httpclient-5.10.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.zipkin.brave:brave-instrumentation-jms:5.10.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave-instrumentation-jms/5.10.1/brave-instrumentation-jms-5.10.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.zipkin.brave:brave-instrumentation-kafka-clients:5.10.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave-instrumentation-kafka-clients/5.10.1/brave-instrumentation-kafka-clients-5.10.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.zipkin.brave:brave-instrumentation-kafka-streams:5.10.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave-instrumentation-kafka-streams/5.10.1/brave-instrumentation-kafka-streams-5.10.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.zipkin.brave:brave-instrumentation-messaging:5.10.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave-instrumentation-messaging/5.10.1/brave-instrumentation-messaging-5.10.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.zipkin.brave:brave-instrumentation-rpc:5.10.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave-instrumentation-rpc/5.10.1/brave-instrumentation-rpc-5.10.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.zipkin.brave:brave-instrumentation-servlet:5.10.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave-instrumentation-servlet/5.10.1/brave-instrumentation-servlet-5.10.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.zipkin.brave:brave-instrumentation-spring-rabbit:5.10.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave-instrumentation-spring-rabbit/5.10.1/brave-instrumentation-spring-rabbit-5.10.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.zipkin.brave:brave-instrumentation-spring-web:5.10.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave-instrumentation-spring-web/5.10.1/brave-instrumentation-spring-web-5.10.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.zipkin.brave:brave-instrumentation-spring-webmvc:5.10.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave-instrumentation-spring-webmvc/5.10.1/brave-instrumentation-spring-webmvc-5.10.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.zipkin.brave:brave:5.10.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/zipkin/brave/brave/5.10.1/brave-5.10.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.zipkin.reporter2:zipkin-reporter-metrics-micrometer:2.12.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/zipkin/reporter2/zipkin-reporter-metrics-micrometer/2.12.1/zipkin-reporter-metrics-micrometer-2.12.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.zipkin.reporter2:zipkin-reporter:2.12.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/zipkin/reporter2/zipkin-reporter/2.12.1/zipkin-reporter-2.12.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.zipkin.reporter2:zipkin-sender-activemq-client:2.12.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/zipkin/reporter2/zipkin-sender-activemq-client/2.12.1/zipkin-sender-activemq-client-2.12.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.zipkin.reporter2:zipkin-sender-amqp-client:2.12.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/zipkin/reporter2/zipkin-sender-amqp-client/2.12.1/zipkin-sender-amqp-client-2.12.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.zipkin.reporter2:zipkin-sender-kafka:2.12.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/zipkin/reporter2/zipkin-sender-kafka/2.12.1/zipkin-sender-kafka-2.12.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: io.zipkin.zipkin2:zipkin:2.19.3" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/zipkin/zipkin2/zipkin/2.19.3/zipkin-2.19.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: jakarta.activation:jakarta.activation-api:1.2.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: jakarta.annotation:jakarta.annotation-api:1.3.5" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: jakarta.validation:jakarta.validation-api:2.0.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: jakarta.xml.bind:jakarta.xml.bind-api:2.3.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: javax.activation:activation:1.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/javax/activation/activation/1.1/activation-1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/javax/activation/activation/1.1/activation-1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+  <library name="Gradle: javax.activation:javax.activation-api:1.2.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: javax.cache:cache-api:1.1.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/javax/cache/cache-api/1.1.1/cache-api-1.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: javax.inject:javax.inject:1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/javax/inject/javax.inject/1/javax.inject-1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/javax/inject/javax.inject/1/javax.inject-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+  <library name="Gradle: javax.mail:mail:1.4" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/javax/mail/mail/1.4/mail-1.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: javax.validation:validation-api:2.0.1.Final" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+  <library name="Gradle: javax.ws.rs:jsr311-api:1.1.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+  <library name="Gradle: javax.xml.bind:jaxb-api:2.3.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: jline:jline:2.14.6" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/jline/jline/2.14.6/jline-2.14.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: joda-time:joda-time:2.10.5" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: junit:junit:4.12" __external-system-id="GRADLE">
+    <ANNOTATIONS>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/externalAnnotations/junit/junit/4.12-an1/junit-4.12-an1-annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/" />
+    </SOURCES>
+  </library>
+  <library name="Gradle: ma.glasnost.orika:orika-core:1.5.4" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/ma/glasnost/orika/orika-core/1.5.4/orika-core-1.5.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: mysql:mysql-connector-java:8.0.19" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.19/mysql-connector-java-8.0.19.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: net.bytebuddy:byte-buddy-agent:1.10.8" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/bytebuddy/byte-buddy-agent/1.10.8/byte-buddy-agent-1.10.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: net.bytebuddy:byte-buddy:1.10.8" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/bytebuddy/byte-buddy/1.10.8/byte-buddy-1.10.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: net.jpountz.lz4:lz4:1.3.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: net.minidev:accessors-smart:1.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/minidev/accessors-smart/1.2/accessors-smart-1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+  <library name="Gradle: net.minidev:json-smart:2.3" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/minidev/json-smart/2.3/json-smart-2.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/minidev/json-smart/2.3/json-smart-2.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+  <library name="Gradle: net.sf.ezmorph:ezmorph:1.0.6" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/sf/ezmorph/ezmorph/1.0.6/ezmorph-1.0.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/sf/ezmorph/ezmorph/1.0.6/ezmorph-1.0.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+  <library name="Gradle: net.sf.jopt-simple:jopt-simple:5.0.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/sf/jopt-simple/jopt-simple/5.0.2/jopt-simple-5.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: net.sf.json-lib:json-lib:jdk15:2.4" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.json-lib/json-lib/2.4/136743e0d12df4e785e62b48618cee169b2ae546/json-lib-2.4-jdk15.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.apache.ant:ant-antlr:1.9.13" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/ant/ant-antlr/1.9.13/ant-antlr-1.9.13.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.apache.ant:ant-junit:1.9.13" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/ant/ant-junit/1.9.13/ant-junit-1.9.13.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.apache.ant:ant-launcher:1.9.13" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/ant/ant-launcher/1.9.13/ant-launcher-1.9.13.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.apache.ant:ant:1.9.13" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/ant/ant/1.9.13/ant-1.9.13.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.apache.commons:commons-collections4:4.4" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.apache.commons:commons-compress:1.19" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.apache.commons:commons-lang3:3.11" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11-sources.jar!/" />
+    </SOURCES>
+  </library>
+  <library name="Gradle: org.apache.commons:commons-math3:3.6.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.apache.commons:commons-pool2:2.7.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-pool2/2.7.0/commons-pool2-2.7.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.apache.httpcomponents:httpasyncclient:4.1.4" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpasyncclient/4.1.4/httpasyncclient-4.1.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.apache.httpcomponents:httpclient:4.5.11" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.11/httpclient-4.5.11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.apache.httpcomponents:httpcore-nio:4.4.13" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore-nio/4.4.13/httpcore-nio-4.4.13.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.apache.httpcomponents:httpcore:4.4.13" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13-sources.jar!/" />
+    </SOURCES>
+  </library>
+  <library name="Gradle: org.apache.httpcomponents:httpmime:4.5.11" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.5.11/a0da6f21987ce0cf521b39f97f7a4e9480b05e54/httpmime-4.5.11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.5.11/e6eb03440d5911e1b125266b000eec4f0fab4c9a/httpmime-4.5.11-sources.jar!/" />
+    </SOURCES>
+  </library>
+  <library name="Gradle: org.apache.logging.log4j:log4j-api:2.12.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.12.1/log4j-api-2.12.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.apache.logging.log4j:log4j-core:2.12.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-core/2.12.1/log4j-core-2.12.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.apache.logging.log4j:log4j-to-slf4j:2.12.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-to-slf4j/2.12.1/log4j-to-slf4j-2.12.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.apache.lucene:lucene-analyzers-common:7.7.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-analyzers-common/7.7.2/lucene-analyzers-common-7.7.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.apache.lucene:lucene-backward-codecs:7.7.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-backward-codecs/7.7.2/lucene-backward-codecs-7.7.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.apache.lucene:lucene-core:7.7.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-core/7.7.2/lucene-core-7.7.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.apache.lucene:lucene-grouping:7.7.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-grouping/7.7.2/lucene-grouping-7.7.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.apache.lucene:lucene-highlighter:7.7.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-highlighter/7.7.2/lucene-highlighter-7.7.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.apache.lucene:lucene-join:7.7.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-join/7.7.2/lucene-join-7.7.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.apache.lucene:lucene-memory:7.7.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-memory/7.7.2/lucene-memory-7.7.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.apache.lucene:lucene-misc:7.7.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-misc/7.7.2/lucene-misc-7.7.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.apache.lucene:lucene-queries:7.7.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-queries/7.7.2/lucene-queries-7.7.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.apache.lucene:lucene-queryparser:7.7.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-queryparser/7.7.2/lucene-queryparser-7.7.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.apache.lucene:lucene-sandbox:7.7.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-sandbox/7.7.2/lucene-sandbox-7.7.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.apache.lucene:lucene-spatial-extras:7.7.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-spatial-extras/7.7.2/lucene-spatial-extras-7.7.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.apache.lucene:lucene-spatial3d:7.7.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-spatial3d/7.7.2/lucene-spatial3d-7.7.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.apache.lucene:lucene-spatial:7.7.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-spatial/7.7.2/lucene-spatial-7.7.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.apache.lucene:lucene-suggest:7.7.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-suggest/7.7.2/lucene-suggest-7.7.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.apache.pdfbox:fontbox:2.0.20" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/pdfbox/fontbox/2.0.20/fontbox-2.0.20.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.apache.pdfbox:pdfbox:2.0.20" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/pdfbox/pdfbox/2.0.20/pdfbox-2.0.20.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.apache.poi:poi-ooxml-schemas:4.1.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml-schemas/4.1.2/poi-ooxml-schemas-4.1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.apache.poi:poi-ooxml:4.1.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml/4.1.2/poi-ooxml-4.1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.apache.poi:poi:4.1.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/4.1.2/poi-4.1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.apache.tomcat.embed:tomcat-embed-core:9.0.31" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.31/tomcat-embed-core-9.0.31.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.apache.tomcat.embed:tomcat-embed-el:9.0.31" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-el/9.0.31/tomcat-embed-el-9.0.31.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.apache.tomcat.embed:tomcat-embed-websocket:9.0.31" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.31/tomcat-embed-websocket-9.0.31.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.apache.xmlbeans:xmlbeans:3.1.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.apiguardian:apiguardian-api:1.1.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.aspectj:aspectjrt:1.9.5" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjrt/1.9.5/aspectjrt-1.9.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.aspectj:aspectjweaver:1.9.5" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.9.5/aspectjweaver-1.9.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.assertj:assertj-core:3.13.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/assertj/assertj-core/3.13.2/assertj-core-3.13.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.bouncycastle:bcmail-jdk14:1.38" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/bouncycastle/bcmail-jdk14/1.38/bcmail-jdk14-1.38.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.bouncycastle:bcpkix-jdk15on:1.64" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.bouncycastle:bcprov-jdk14:1.38" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/bouncycastle/bcprov-jdk14/1.38/bcprov-jdk14-1.38.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.bouncycastle:bcprov-jdk15on:1.70" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/bouncycastle/bcprov-jdk15on/1.70/bcprov-jdk15on-1.70.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.bouncycastle:bctsp-jdk14:1.38" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/bouncycastle/bctsp-jdk14/1.38/bctsp-jdk14-1.38.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.checkerframework:checker-qual:2.5.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+  <library name="Gradle: org.codehaus.groovy:groovy-ant:2.5.9" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy-ant/2.5.9/groovy-ant-2.5.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.codehaus.groovy:groovy-astbuilder:3.0.9" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy-astbuilder/3.0.9/groovy-astbuilder-3.0.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.codehaus.groovy:groovy-cli-picocli:2.5.9" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy-cli-picocli/2.5.9/groovy-cli-picocli-2.5.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.codehaus.groovy:groovy-console:2.5.9" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy-console/2.5.9/groovy-console-2.5.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.codehaus.groovy:groovy-datetime:2.5.9" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy-datetime/2.5.9/groovy-datetime-2.5.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.codehaus.groovy:groovy-docgenerator:2.5.9" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy-docgenerator/2.5.9/groovy-docgenerator-2.5.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.codehaus.groovy:groovy-groovydoc:2.5.9" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy-groovydoc/2.5.9/groovy-groovydoc-2.5.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.codehaus.groovy:groovy-groovysh:2.5.9" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy-groovysh/2.5.9/groovy-groovysh-2.5.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.codehaus.groovy:groovy-jmx:2.5.9" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy-jmx/2.5.9/groovy-jmx-2.5.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.codehaus.groovy:groovy-json:2.5.9" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy-json/2.5.9/groovy-json-2.5.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.codehaus.groovy:groovy-jsr223:2.5.9" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy-jsr223/2.5.9/groovy-jsr223-2.5.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.codehaus.groovy:groovy-macro:2.5.9" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy-macro/2.5.9/groovy-macro-2.5.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.codehaus.groovy:groovy-nio:2.5.9" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy-nio/2.5.9/groovy-nio-2.5.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.codehaus.groovy:groovy-servlet:2.5.9" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy-servlet/2.5.9/groovy-servlet-2.5.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.codehaus.groovy:groovy-sql:2.5.9" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy-sql/2.5.9/groovy-sql-2.5.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.codehaus.groovy:groovy-swing:2.5.9" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy-swing/2.5.9/groovy-swing-2.5.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.codehaus.groovy:groovy-templates:2.5.9" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy-templates/2.5.9/groovy-templates-2.5.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.codehaus.groovy:groovy-test-junit5:2.5.9" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy-test-junit5/2.5.9/groovy-test-junit5-2.5.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.codehaus.groovy:groovy-test:2.5.9" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy-test/2.5.9/groovy-test-2.5.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.codehaus.groovy:groovy-testng:2.5.9" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy-testng/2.5.9/groovy-testng-2.5.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.codehaus.groovy:groovy-xml:2.5.9" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy-xml/2.5.9/groovy-xml-2.5.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.codehaus.groovy:groovy:3.0.9" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy/3.0.9/groovy-3.0.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.codehaus.jackson:jackson-core-lgpl:1.9.6" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-core-lgpl/1.9.6/jackson-core-lgpl-1.9.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.codehaus.jackson:jackson-mapper-lgpl:1.9.6" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-mapper-lgpl/1.9.6/jackson-mapper-lgpl-1.9.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.codehaus.janino:commons-compiler:3.1.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/janino/commons-compiler/3.1.0/commons-compiler-3.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.codehaus.janino:janino:3.1.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/janino/janino/3.1.0/janino-3.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.codehaus.jettison:jettison:1.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/jettison/jettison/1.1/jettison-1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.codehaus.mojo:animal-sniffer-annotations:1.17" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.elasticsearch.client:elasticsearch-rest-client:6.8.6" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/client/elasticsearch-rest-client/6.8.6/elasticsearch-rest-client-6.8.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.elasticsearch.client:elasticsearch-rest-high-level-client:6.8.6" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/client/elasticsearch-rest-high-level-client/6.8.6/elasticsearch-rest-high-level-client-6.8.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.elasticsearch.client:transport:6.8.6" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/client/transport/6.8.6/transport-6.8.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.elasticsearch.plugin:aggs-matrix-stats-client:6.8.6" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/plugin/aggs-matrix-stats-client/6.8.6/aggs-matrix-stats-client-6.8.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.elasticsearch.plugin:lang-mustache-client:6.8.6" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/plugin/lang-mustache-client/6.8.6/lang-mustache-client-6.8.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.elasticsearch.plugin:parent-join-client:6.8.6" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/plugin/parent-join-client/6.8.6/parent-join-client-6.8.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.elasticsearch.plugin:percolator-client:6.8.6" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/plugin/percolator-client/6.8.6/percolator-client-6.8.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.elasticsearch.plugin:rank-eval-client:6.8.6" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/plugin/rank-eval-client/6.8.6/rank-eval-client-6.8.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.elasticsearch.plugin:reindex-client:6.8.6" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/plugin/reindex-client/6.8.6/reindex-client-6.8.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.elasticsearch.plugin:transport-netty4-client:6.8.6" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/plugin/transport-netty4-client/6.8.6/transport-netty4-client-6.8.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.elasticsearch:elasticsearch-cli:6.8.6" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch-cli/6.8.6/elasticsearch-cli-6.8.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.elasticsearch:elasticsearch-core:6.8.6" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch-core/6.8.6/elasticsearch-core-6.8.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.elasticsearch:elasticsearch-secure-sm:6.8.6" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch-secure-sm/6.8.6/elasticsearch-secure-sm-6.8.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.elasticsearch:elasticsearch-ssl-config:6.8.6" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch-ssl-config/6.8.6/elasticsearch-ssl-config-6.8.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.elasticsearch:elasticsearch-x-content:6.8.6" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch-x-content/6.8.6/elasticsearch-x-content-6.8.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.elasticsearch:elasticsearch:6.8.6" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.8.6/elasticsearch-6.8.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.elasticsearch:jna:4.5.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/jna/4.5.1/jna-4.5.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.freemarker:freemarker:2.3.29" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/freemarker/freemarker/2.3.29/freemarker-2.3.29.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.glassfish.jaxb:jaxb-runtime:2.3.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.glassfish.jaxb:txw2:2.3.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/glassfish/jaxb/txw2/2.3.2/txw2-2.3.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.hamcrest:hamcrest-core:2.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/2.1/hamcrest-core-2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.hamcrest:hamcrest:2.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.hdrhistogram:HdrHistogram:2.1.11" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/hdrhistogram/HdrHistogram/2.1.11/HdrHistogram-2.1.11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.hibernate.validator:hibernate-validator:6.0.18.Final" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/validator/hibernate-validator/6.0.18.Final/hibernate-validator-6.0.18.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.ini4j:ini4j:0.5.4" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/ini4j/ini4j/0.5.4/ini4j-0.5.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.jacoco:org.jacoco.agent:runtime:0.8.7" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jacoco/org.jacoco.agent/0.8.7/37df187b76888101ecd745282e9cd1ad4ea508d6/org.jacoco.agent-0.8.7-runtime.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jacoco/org.jacoco.agent/0.8.7/77e27d61690723e3bbefdd83eedcb4f44d521e65/org.jacoco.agent-0.8.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+  <library name="Gradle: org.javassist:javassist:3.25.0-GA" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/javassist/javassist/3.25.0-GA/javassist-3.25.0-GA.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.jboss.logging:jboss-logging:3.4.1.Final" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jboss/logging/jboss-logging/3.4.1.Final/jboss-logging-3.4.1.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.jdom:jdom2:2.0.6" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jdom/jdom2/2.0.6/jdom2-2.0.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.jodd:jodd-bean:5.0.10" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jodd/jodd-bean/5.0.10/jodd-bean-5.0.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.jodd:jodd-core:5.0.10" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jodd/jodd-core/5.0.10/jodd-core-5.0.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.junit.jupiter:junit-jupiter-api:5.5.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.junit.jupiter:junit-jupiter-engine:5.5.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.junit.jupiter:junit-jupiter-params:5.5.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-params/5.5.2/junit-jupiter-params-5.5.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.junit.jupiter:junit-jupiter:5.5.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter/5.5.2/junit-jupiter-5.5.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.junit.platform:junit-platform-commons:1.5.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.junit.platform:junit-platform-engine:1.5.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.junit.platform:junit-platform-launcher:1.5.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-launcher/1.5.2/junit-platform-launcher-1.5.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.junit.vintage:junit-vintage-engine:5.5.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/junit/vintage/junit-vintage-engine/5.5.2/junit-vintage-engine-5.5.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.jvnet.staxex:stax-ex:1.8.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jvnet/staxex/stax-ex/1.8.1/stax-ex-1.8.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.latencyutils:LatencyUtils:2.0.3" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.mapstruct:mapstruct:1.3.1.Final" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.3.1.Final/mapstruct-1.3.1.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.mockito:mockito-core:3.1.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-core/3.1.0/mockito-core-3.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.mockito:mockito-junit-jupiter:3.1.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-junit-jupiter/3.1.0/mockito-junit-jupiter-3.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.mongodb:bson:3.11.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/mongodb/bson/3.11.2/bson-3.11.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.mongodb:mongodb-driver-core:3.11.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-core/3.11.2/mongodb-driver-core-3.11.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.mongodb:mongodb-driver:3.11.2" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver/3.11.2/mongodb-driver-3.11.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.mybatis:mybatis-spring:2.0.6" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/2.0.6/mybatis-spring-2.0.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.mybatis:mybatis:3.5.9" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.9/mybatis-3.5.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.objenesis:objenesis:2.6" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/objenesis/objenesis/2.6/objenesis-2.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/objenesis/objenesis/2.6/objenesis-2.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+  <library name="Gradle: org.opentest4j:opentest4j:1.2.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.ow2.asm:asm:5.0.4" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/ow2/asm/asm/5.0.4/asm-5.0.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+  <library name="Gradle: org.projectlombok:lombok:1.18.12" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.projectlombok:lombok:1.18.22" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.reactivestreams:reactive-streams:1.0.3" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.redisson:redisson-spring-boot-starter:3.11.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/redisson/redisson-spring-boot-starter/3.11.0/redisson-spring-boot-starter-3.11.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.redisson:redisson-spring-data-21:3.11.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/redisson/redisson-spring-data-21/3.11.0/redisson-spring-data-21-3.11.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.redisson:redisson:3.11.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.11.0/redisson-3.11.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.skyscreamer:jsonassert:1.5.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+  <library name="Gradle: org.slf4j:jcl-over-slf4j:1.7.30" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.slf4j:jul-to-slf4j:1.7.30" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.slf4j:slf4j-api:1.7.30" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.spockframework:spock-core:2.0-groovy-3.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/spockframework/spock-core/2.0-groovy-3.0/spock-core-2.0-groovy-3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.spockframework:spock-spring:2.0-groovy-3.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/spockframework/spock-spring/2.0-groovy-3.0/spock-spring-2.0-groovy-3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework.amqp:spring-amqp:2.2.5.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.2.5.RELEASE/spring-amqp-2.2.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework.amqp:spring-rabbit:2.2.5.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.2.5.RELEASE/spring-rabbit-2.2.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework.boot:spring-boot-actuator-autoconfigure:2.2.5.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator-autoconfigure/2.2.5.RELEASE/spring-boot-actuator-autoconfigure-2.2.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework.boot:spring-boot-actuator:2.2.5.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator/2.2.5.RELEASE/spring-boot-actuator-2.2.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework.boot:spring-boot-autoconfigure:2.2.5.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.2.5.RELEASE/spring-boot-autoconfigure-2.2.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework.boot:spring-boot-starter-actuator:2.2.5.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-actuator/2.2.5.RELEASE/spring-boot-starter-actuator-2.2.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework.boot:spring-boot-starter-amqp:2.2.5.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-amqp/2.2.5.RELEASE/spring-boot-starter-amqp-2.2.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework.boot:spring-boot-starter-aop:2.2.5.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-aop/2.2.5.RELEASE/spring-boot-starter-aop-2.2.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework.boot:spring-boot-starter-data-elasticsearch:2.2.5.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-data-elasticsearch/2.2.5.RELEASE/spring-boot-starter-data-elasticsearch-2.2.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework.boot:spring-boot-starter-data-mongodb:2.2.5.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-data-mongodb/2.2.5.RELEASE/spring-boot-starter-data-mongodb-2.2.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework.boot:spring-boot-starter-data-redis:2.2.5.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-data-redis/2.2.5.RELEASE/spring-boot-starter-data-redis-2.2.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework.boot:spring-boot-starter-jdbc:2.2.5.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-jdbc/2.2.5.RELEASE/spring-boot-starter-jdbc-2.2.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework.boot:spring-boot-starter-json:2.2.5.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-json/2.2.5.RELEASE/spring-boot-starter-json-2.2.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework.boot:spring-boot-starter-logging:2.2.5.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-logging/2.2.5.RELEASE/spring-boot-starter-logging-2.2.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework.boot:spring-boot-starter-test:2.2.5.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-test/2.2.5.RELEASE/spring-boot-starter-test-2.2.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework.boot:spring-boot-starter-tomcat:2.2.5.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-tomcat/2.2.5.RELEASE/spring-boot-starter-tomcat-2.2.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework.boot:spring-boot-starter-validation:2.2.5.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-validation/2.2.5.RELEASE/spring-boot-starter-validation-2.2.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework.boot:spring-boot-starter-web:2.2.5.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-web/2.2.5.RELEASE/spring-boot-starter-web-2.2.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework.boot:spring-boot-starter-websocket:2.2.5.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-websocket/2.2.5.RELEASE/spring-boot-starter-websocket-2.2.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework.boot:spring-boot-starter:2.2.5.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter/2.2.5.RELEASE/spring-boot-starter-2.2.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework.boot:spring-boot-test-autoconfigure:2.2.5.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-test-autoconfigure/2.2.5.RELEASE/spring-boot-test-autoconfigure-2.2.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework.boot:spring-boot-test:2.2.5.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-test/2.2.5.RELEASE/spring-boot-test-2.2.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework.boot:spring-boot:2.2.5.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.2.5.RELEASE/spring-boot-2.2.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework.cloud:spring-cloud-commons:2.2.2.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.2.2.RELEASE/spring-cloud-commons-2.2.2.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework.cloud:spring-cloud-context:2.2.2.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-context/2.2.2.RELEASE/spring-cloud-context-2.2.2.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework.cloud:spring-cloud-netflix-archaius:2.2.2.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-archaius/2.2.2.RELEASE/spring-cloud-netflix-archaius-2.2.2.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework.cloud:spring-cloud-netflix-ribbon:2.2.2.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.2.RELEASE/spring-cloud-netflix-ribbon-2.2.2.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework.cloud:spring-cloud-openfeign-core:2.2.2.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.2.2.RELEASE/spring-cloud-openfeign-core-2.2.2.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework.cloud:spring-cloud-sleuth-core:2.2.2.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-sleuth-core/2.2.2.RELEASE/spring-cloud-sleuth-core-2.2.2.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework.cloud:spring-cloud-sleuth-zipkin:2.2.2.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-sleuth-zipkin/2.2.2.RELEASE/spring-cloud-sleuth-zipkin-2.2.2.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-archaius:2.2.2.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-netflix-archaius/2.2.2.RELEASE/spring-cloud-starter-netflix-archaius-2.2.2.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-ribbon:2.2.2.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-netflix-ribbon/2.2.2.RELEASE/spring-cloud-starter-netflix-ribbon-2.2.2.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework.cloud:spring-cloud-starter-openfeign:2.2.2.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-openfeign/2.2.2.RELEASE/spring-cloud-starter-openfeign-2.2.2.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework.cloud:spring-cloud-starter-sleuth:2.2.2.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-sleuth/2.2.2.RELEASE/spring-cloud-starter-sleuth-2.2.2.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework.cloud:spring-cloud-starter-zipkin:2.2.2.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-zipkin/2.2.2.RELEASE/spring-cloud-starter-zipkin-2.2.2.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework.cloud:spring-cloud-starter:2.2.2.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter/2.2.2.RELEASE/spring-cloud-starter-2.2.2.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework.data:spring-data-commons:2.2.5.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.2.5.RELEASE/spring-data-commons-2.2.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework.data:spring-data-elasticsearch:3.2.5.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-elasticsearch/3.2.5.RELEASE/spring-data-elasticsearch-3.2.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework.data:spring-data-keyvalue:2.2.5.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-keyvalue/2.2.5.RELEASE/spring-data-keyvalue-2.2.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework.data:spring-data-mongodb:2.2.5.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-mongodb/2.2.5.RELEASE/spring-data-mongodb-2.2.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework.data:spring-data-redis:2.2.5.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.2.5.RELEASE/spring-data-redis-2.2.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework.plugin:spring-plugin-core:2.0.0.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/plugin/spring-plugin-core/2.0.0.RELEASE/spring-plugin-core-2.0.0.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework.plugin:spring-plugin-metadata:2.0.0.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/plugin/spring-plugin-metadata/2.0.0.RELEASE/spring-plugin-metadata-2.0.0.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework.retry:spring-retry:1.2.5.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/retry/spring-retry/1.2.5.RELEASE/spring-retry-1.2.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework.security:spring-security-crypto:5.2.2.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-crypto/5.2.2.RELEASE/spring-security-crypto-5.2.2.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework.security:spring-security-rsa:1.0.9.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-rsa/1.0.9.RELEASE/spring-security-rsa-1.0.9.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework:spring-aop:5.2.4.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.2.4.RELEASE/spring-aop-5.2.4.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework:spring-beans:5.2.4.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.4.RELEASE/spring-beans-5.2.4.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework:spring-context-support:5.2.4.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/5.2.4.RELEASE/spring-context-support-5.2.4.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework:spring-context:5.2.4.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.4.RELEASE/spring-context-5.2.4.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework:spring-core:5.2.4.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.4.RELEASE/spring-core-5.2.4.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework:spring-expression:5.2.4.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-expression/5.2.4.RELEASE/spring-expression-5.2.4.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework:spring-jcl:5.2.4.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jcl/5.2.4.RELEASE/spring-jcl-5.2.4.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework:spring-jdbc:5.2.4.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/5.2.4.RELEASE/spring-jdbc-5.2.4.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework:spring-messaging:5.2.4.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-messaging/5.2.4.RELEASE/spring-messaging-5.2.4.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework:spring-orm:5.2.4.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/5.2.4.RELEASE/spring-orm-5.2.4.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework:spring-oxm:5.2.4.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-oxm/5.2.4.RELEASE/spring-oxm-5.2.4.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework:spring-test:5.2.4.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.2.4.RELEASE/spring-test-5.2.4.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework:spring-tx:5.2.4.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.2.4.RELEASE/spring-tx-5.2.4.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework:spring-web:5.2.4.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.4.RELEASE/spring-web-5.2.4.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework:spring-webmvc:5.2.4.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.4.RELEASE/spring-webmvc-5.2.4.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.springframework:spring-websocket:5.2.4.RELEASE" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-websocket/5.2.4.RELEASE/spring-websocket-5.2.4.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.testng:testng:6.13.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.13.1/testng-6.13.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.xmlunit:xmlunit-core:2.6.3" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/xmlunit/xmlunit-core/2.6.3/xmlunit-core-2.6.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: org.yaml:snakeyaml:1.25" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.25/snakeyaml-1.25.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: p6spy:p6spy:3.9.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/p6spy/p6spy/3.9.1/p6spy-3.9.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: redis.clients:jedis:3.1.0" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.1.0/jedis-3.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+  <library name="Gradle: stax:stax-api:1.0.1" __external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/stax/stax-api/1.0.1/stax-api-1.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,102 @@
+<html><head><title>Indexing diagnostics of &#39;message&#39;</title><style>body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table {
+  width: 80%;
+}
+
+table.two-columns td {
+  width: 50%;
+}
+
+th, td {
+  padding: 3px;
+}
+
+th {
+  background: lightgrey;
+}
+
+td {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+        
+.stats-content {
+  margin-left: 20%;
+}
+
+.aggregate-report-content {
+  margin-left: 10%;
+}
+
+.navigation-bar {
+  width: 15%;
+  background-color: lightgrey;
+  position: fixed;
+  height: 100%;
+}
+
+div.navigation-bar ul {
+  list-style-type: none;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+}
+
+div.navigation-bar ul li a, label {
+  display: block;
+  color: #000;
+  padding: 8px 20px;
+  text-decoration: none;
+}
+
+label input {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+div.navigation-bar ul li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.minor-data {}
+
+.invisible {
+  display: none;
+}
+
+.jetbrains-logo {
+  width: 50%;
+  bottom: 5%;
+  position: absolute;
+  left: 20%;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.linkable-table-row:hover {
+  background: #f2f3ff;
+  outline: none;
+  cursor: pointer;
+}</style><script>document.addEventListener("DOMContentLoaded", () => {
+  const rows = document.getElementsByClassName("linkable-table-row")
+  for (const row of rows) {
+    const href = row.getAttribute("href")
+    row.addEventListener("click", () => {
+      window.open(href, "_blank");
+    });
+  }
+});</script></head><body><div class="aggregate-report-content"><h1>Project name</h1>message<div><h1>Indexing history</h1><table class="centered-text"><caption style="caption-side: bottom; text-align: right; font-size: 14px">Hover for details</caption><thead><tr><th colspan="6">Time</th><th colspan="6">Files</th><th rowspan="2">IDE</th><th rowspan="2">Type</th></tr><tr><th>Started</th><th>Total</th><th>Scanning</th><th>Indexing</th><th>Content loading</th><th>Finished</th><th>Providers</th><th>Scanned</th><th>Shared indexes (w/o content loading)</th><th>Scheduled for indexing</th><th>Shared indexes (content loaded)</th><th>Total indexed (shared indexes included)</th></tr></thead><tbody><tr class="linkable-table-row" href="diagnostic-2023-03-29-11-54-17.955.html"><td><strong>On refresh of 13 files</strong><br/>11:54:17 29 3月</td><td>61 ms</td><td>&lt; 1 ms</td><td>52 ms</td><td>&lt; 1 ms</td><td>11:54:17 29 3月</td><td>1</td><td>13</td><td>0</td><td>13</td><td>0</td><td>13</td><td>IC-213.7172.25</td><td>Partial</td></tr><tr class="linkable-table-row" href="diagnostic-2023-03-29-11-53-59.719.html"><td><strong>On refresh of 13 files</strong><br/>11:53:59 29 3月</td><td>42 ms</td><td>&lt; 1 ms</td><td>28 ms</td><td>3 ms</td><td>11:53:59 29 3月</td><td>1</td><td>13</td><td>0</td><td>13</td><td>0</td><td>13</td><td>IC-213.7172.25</td><td>Partial</td></tr><tr class="linkable-table-row" href="diagnostic-2023-03-29-11-53-55.495.html"><td><strong>Reindex requested by project root model changes</strong><br/>11:53:53 29 3月</td><td>2 s 83 ms</td><td>1 s 995 ms</td><td>61 ms</td><td>1 ms</td><td>11:53:55 29 3月</td><td>439</td><td>203300</td><td>0</td><td>2</td><td>0</td><td>2</td><td>IC-213.7172.25</td><td>Full</td></tr><tr class="linkable-table-row" href="diagnostic-2023-03-29-11-53-53.414.html"><td><strong>changes in: &quot;Library Gradle: org.skyscreamer:jsonassert:1.5.0&quot;, &quot;Library Gradle: com.fasterxml.jackson.core:jackson-databind:2.10.2&quot;, &quot;Library Gradle: io.netty:netty-buffer:4.1.45.Final&quot;, &quot;Library Gradle: com.netflix.servo:servo-internal:0.10.1&quot;, &quot;Library Gradle: org.apache.httpcomponents:httpcore:4.4.13&quot;, &quot;Library Gradle: io.netty:netty-transport:4.1.45.Final&quot;, &quot;Library Gradle: io.reactivex:rxnetty-contexts:0.4.9&quot;, &quot;Library Gradle: com.google.guava:failureaccess:1.0.1&quot;, &quot;Library Gradle: javax.validation:validation-api:2.0.1.Final&quot;, &quot;Library Gradle: org.jacoco:org.jacoco.agent:runtime:0.8.7&quot; and 36 iterators more</strong><br/>11:53:53 29 3月</td><td>363 ms</td><td>339 ms</td><td>0</td><td>0</td><td>11:53:53 29 3月</td><td>46</td><td>14135</td><td>0</td><td>0</td><td>0</td><td>0</td><td>IC-213.7172.25</td><td>Partial</td></tr><tr class="linkable-table-row" href="diagnostic-2023-03-29-11-48-12.243.html"><td><strong>changes in: &quot;Library Gradle: io.netty:netty-resolver:4.1.45.Final&quot;</strong><br/>11:48:12 29 3月</td><td>11 ms</td><td>&lt; 1 ms</td><td>0</td><td>0</td><td>11:48:12 29 3月</td><td>1</td><td>31</td><td>0</td><td>0</td><td>0</td><td>0</td><td>IC-213.7172.25</td><td>Partial</td></tr><tr class="linkable-table-row" href="diagnostic-2023-03-29-11-48-12.231.html"><td><strong>changes in: &quot;Library Gradle: io.netty:netty-common:4.1.45.Final&quot;</strong><br/>11:48:12 29 3月</td><td>16 ms</td><td>&lt; 1 ms</td><td>0</td><td>0</td><td>11:48:12 29 3月</td><td>1</td><td>473</td><td>0</td><td>0</td><td>0</td><td>0</td><td>IC-213.7172.25</td><td>Partial</td></tr><tr class="linkable-table-row" href="diagnostic-2023-03-29-11-48-12.214.html"><td><strong>changes in: &quot;Library Gradle: io.netty:netty-buffer:4.1.45.Final&quot;</strong><br/>11:48:12 29 3月</td><td>12 ms</td><td>&lt; 1 ms</td><td>0</td><td>0</td><td>11:48:12 29 3月</td><td>1</td><td>123</td><td>0</td><td>0</td><td>0</td><td>0</td><td>IC-213.7172.25</td><td>Partial</td></tr><tr class="linkable-table-row" href="diagnostic-2023-03-29-11-48-12.201.html"><td><strong>changes in: &quot;Library Gradle: io.netty:netty-transport:4.1.45.Final&quot;</strong><br/>11:48:12 29 3月</td><td>20 ms</td><td>&lt; 1 ms</td><td>0</td><td>0</td><td>11:48:12 29 3月</td><td>1</td><td>364</td><td>0</td><td>0</td><td>0</td><td>0</td><td>IC-213.7172.25</td><td>Partial</td></tr><tr class="linkable-table-row" href="diagnostic-2023-03-29-11-48-12.180.html"><td><strong>changes in: &quot;Library Gradle: junit:junit:4.12&quot;</strong><br/>11:48:12 29 3月</td><td>21 ms</td><td>&lt; 1 ms</td><td>0</td><td>0</td><td>11:48:12 29 3月</td><td>1</td><td>490</td><td>0</td><td>0</td><td>0</td><td>0</td><td>IC-213.7172.25</td><td>Partial</td></tr><tr class="linkable-table-row" href="diagnostic-2023-03-29-11-48-12.159.html"><td><strong>changes in: &quot;Library Gradle: com.fasterxml.jackson.core:jackson-core:2.10.2&quot;</strong><br/>11:48:12 29 3月</td><td>21 ms</td><td>&lt; 1 ms</td><td>0</td><td>0</td><td>11:48:12 29 3月</td><td>1</td><td>124</td><td>0</td><td>0</td><td>0</td><td>0</td><td>IC-213.7172.25</td><td>Partial</td></tr><tr class="linkable-table-row" href="diagnostic-2023-03-29-11-48-12.148.html"><td><strong>changes in: &quot;Library Gradle: com.fasterxml.jackson.core:jackson-databind:2.10.2&quot;</strong><br/>11:48:12 29 3月</td><td>26 ms</td><td>&lt; 1 ms</td><td>0</td><td>0</td><td>11:48:12 29 3月</td><td>1</td><td>662</td><td>0</td><td>0</td><td>0</td><td>0</td><td>IC-213.7172.25</td><td>Partial</td></tr><tr class="linkable-table-row" href="diagnostic-2023-03-29-11-48-12.106.html"><td><strong>changes in: &quot;Module &#39;message.test&#39; (test, test)&quot;, &quot;Module &#39;message.main&#39; (main, main)&quot;, &quot;JDK 11&quot;, &quot;Library Gradle: com.gbw:utils:3.5.13&quot;, &quot;Library Gradle: com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery:2.2.1.RELEASE&quot;, &quot;Library Gradle: com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-config:2.2.1.RELEASE&quot;, &quot;Library Gradle: org.springframework.boot:spring-boot-starter-actuator:2.2.5.RELEASE&quot;, &quot;Library Gradle: org.springframework.cloud:spring-cloud-starter-zipkin:2.2.2.RELEASE&quot;, &quot;Library Gradle: org.springframework.cloud:spring-cloud-sleuth-core:2.2.2.RELEASE&quot;, &quot;Library Gradle: io.github.openfeign:feign-okhttp:10.7.4&quot; and 422 iterators more</strong><br/>11:47:44 29 3月</td><td>27 s 727 ms</td><td>5 s 527 ms</td><td>22 s 176 ms</td><td>2 s 595 ms</td><td>11:48:12 29 3月</td><td>432</td><td>199466</td><td>0</td><td>149088</td><td>0</td><td>149088</td><td>IC-213.7172.25</td><td>Partial</td></tr><tr class="linkable-table-row" href="diagnostic-2023-03-29-11-47-07.011.html"><td><strong>On refresh of 13 files</strong><br/>11:47:06 29 3月</td><td>12 ms</td><td>&lt; 1 ms</td><td>8 ms</td><td>&lt; 1 ms</td><td>11:47:07 29 3月</td><td>1</td><td>13</td><td>0</td><td>13</td><td>0</td><td>13</td><td>IC-213.7172.25</td><td>Partial</td></tr><tr class="linkable-table-row" href="diagnostic-2023-03-29-11-46-46.963.html"><td><strong>On refresh of 13 files</strong><br/>11:46:46 29 3月</td><td>18 ms</td><td>&lt; 1 ms</td><td>10 ms</td><td>&lt; 1 ms</td><td>11:46:46 29 3月</td><td>1</td><td>13</td><td>0</td><td>13</td><td>0</td><td>13</td><td>IC-213.7172.25</td><td>Partial</td></tr><tr class="linkable-table-row" href="diagnostic-2023-03-29-11-46-35.483.html"><td><strong>Reindex requested by project root model changes</strong><br/>11:46:18 29 3月</td><td>17 s 8 ms</td><td>2 s 500 ms</td><td>14 s 402 ms</td><td>951 ms</td><td>11:46:35 29 3月</td><td>8</td><td>48401</td><td>0</td><td>48049</td><td>0</td><td>48049</td><td>IC-213.7172.25</td><td>Full</td></tr></tbody></table></div><div><h1>Scanning to push properties of changed files</h1><table><thead><tr><th>Time</th><th>Reason</th><th>Full duration</th><th>Is cancelled</th><th>Number</th></tr></thead><tbody><tr><td>11:54:17 29 3月</td><td>Push on VFS changes</td><td>4 ms</td><td>fully finished</td><td>1</td></tr><tr><td>11:47:06 29 3月</td><td>Push on VFS changes</td><td>2 ms</td><td>fully finished</td><td>1</td></tr></tbody></table></div></div></body></html>

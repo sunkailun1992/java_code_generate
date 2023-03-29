@@ -1,0 +1,31 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$Delete">
+      <i c="2" l="1680062038582" />
+    </e>
+    <e n="CodeAllAction">
+      <i c="1" l="1680062042752" />
+    </e>
+    <e n="ExternalSystem.RefreshAllProjects">
+      <i c="1" l="1680061642145" />
+    </e>
+    <e n="GotoImplementation">
+      <i c="2" l="1680062064439" />
+    </e>
+    <e n="ShowProjectStructureSettings">
+      <i c="1" l="1680061635348" />
+    </e>
+    <e n="SynchronizeCurrentFile">
+      <i c="2" l="1680062057841" />
+    </e>
+    <e n="WelcomeScreen.OpenProject">
+      <i c="1" l="1680061554152" />
+    </e>
+    <e n="com.intellij.ide.ReopenProjectAction">
+      <i c="1" l="1680062028735" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.ToolWindowHeader$HideAction">
+      <i c="1" l="1680061647168" />
+    </e>
+  </component>
+</application>
