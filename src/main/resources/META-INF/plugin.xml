@@ -4,7 +4,7 @@
     <!-- 插件名称，别人在官方插件库搜索你的插件时使用的名称 -->
     <name>Skl Java Code Generate</name>
     <!-- 插件版本号 -->
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <!-- 供应商主页和email（不能使用默认值，必须修改成自己的）-->
     <vendor email="376253703@qq.com" url="https://github.com/sunkailun1992">孙凯伦</vendor>
     <!-- 插件的描述 （不能使用默认值，必须修改成自己的。并且需要大于40个字符）-->
@@ -17,7 +17,6 @@
         <p> Enumeration class rules: (1: test 1, 2: test 2), cut brackets, and have been separated by commas, semicolon first for encoding, second for Chinese. </p>
         <p> Enumeration class rules all symbols must be Chinese symbols. </p>
         <p> If you have any questions, please contact the author at 376253703@qq.com. </p>
-        <p> github https://github.com/sunkailun1992/java_code_generate. </p>
     ]]>
     </description>
     <!-- 插件版本变更信息，支持HTML标签；
