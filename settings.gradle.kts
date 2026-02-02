@@ -5,4 +5,4 @@ pluginManagement {
     }
 }
 
-rootProject.name = "demo"
+rootProject.name = "java_code_generate"
