@@ -1,0 +1,159 @@
+<idea-plugin>
+
+    <!-- 插件唯一 ID（发布后不可修改） -->
+    <id>com.skl.java.code.generate</id>
+
+    <!-- 插件名称 -->
+    <name>Skl Java Code Generate</name>
+
+    <!-- 插件版本 -->
+    <version>2.0.0</version>
+
+    <!-- 作者信息 -->
+    <vendor
+            email="376253703@qq.com"
+            url="https://github.com/sunkailun1992">
+        孙凯伦
+    </vendor>
+
+    <!-- 插件描述（Marketplace 要求 ≥ 40 字） -->
+    <description><![CDATA[
+        <p>
+            Skl Java Code Generate is an IntelliJ IDEA plugin designed to
+            reduce repetitive Java coding work by generating common
+            backend code structures such as Entity, VO, BO, Query,
+            Mapper, Service, Controller, and Enum classes.
+        </p>
+        <p>
+            It supports multi-table generation and customizable templates,
+            making it suitable for rapid development in Java backend projects.
+        </p>
+        <p>
+            Template path:
+            /src/main/resources/templates/configuration
+        </p>
+    ]]></description>
+
+    <!-- 版本更新说明 -->
+    <change-notes><![CDATA[
+        <ul>
+            <li>Fully compatible with IntelliJ IDEA 2024.x</li>
+            <li>Fix action visibility issues in Project View</li>
+            <li>Refactor plugin.xml to align with new Action system</li>
+        </ul>
+    ]]></change-notes>
+
+    <!-- 平台依赖 -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <!-- 扩展点 -->
+    <extensions defaultExtensionNs="com.intellij">
+
+        <!-- 通知组（新 API） -->
+        <notificationGroup
+                id="SklCodeGenerateNotification"
+                displayType="BALLOON"
+                isLogByDefault="true"/>
+    </extensions>
+
+    <!-- Action 定义 -->
+    <actions>
+
+        <!-- 右键菜单主分组（⚠️ 关键：ProjectViewPopupMenu） -->
+        <group
+                id="SklCodeGenerateGroup"
+                text="Skl Code Generate"
+                description="Java code generation tools"
+                popup="true">
+            <add-to-group group-id="ProjectViewPopupMenu" anchor="last"/>
+        </group>
+
+        <!-- ===== Actions ===== -->
+
+        <action id="CodeAllAction"
+                class="com.code.action.CodeAllAction"
+                text="Generate All Code"
+                description="Generate all related backend code">
+            <add-to-group group-id="SklCodeGenerateGroup"/>
+        </action>
+
+        <action id="QueryAllAction"
+                class="com.code.action.QueryAllAction"
+                text="Generate Query Classes"
+                description="Generate Query and Service Query classes">
+            <add-to-group group-id="SklCodeGenerateGroup"/>
+        </action>
+
+        <action id="EntityAction"
+                class="com.code.action.EntityAction"
+                text="Generate Entity"
+                description="Generate Entity class">
+            <add-to-group group-id="SklCodeGenerateGroup"/>
+        </action>
+
+        <action id="EntityQueryAction"
+                class="com.code.action.EntityQueryAction"
+                text="Generate Entity Query"
+                description="Generate Entity Query class">
+            <add-to-group group-id="SklCodeGenerateGroup"/>
+        </action>
+
+        <action id="EntityBOAction"
+                class="com.code.action.EntityBOAction"
+                text="Generate Entity BO"
+                description="Generate Business Object (BO)">
+            <add-to-group group-id="SklCodeGenerateGroup"/>
+        </action>
+
+        <action id="EntityVOAction"
+                class="com.code.action.EntityVOAction"
+                text="Generate Entity VO"
+                description="Generate View Object (VO)">
+            <add-to-group group-id="SklCodeGenerateGroup"/>
+        </action>
+
+        <action id="EnumsAction"
+                class="com.code.action.EnumsAction"
+                text="Generate Enum"
+                description="Generate Enum classes">
+            <add-to-group group-id="SklCodeGenerateGroup"/>
+        </action>
+
+        <action id="ControllerAction"
+                class="com.code.action.ControllerAction"
+                text="Generate Controller"
+                description="Generate Controller layer">
+            <add-to-group group-id="SklCodeGenerateGroup"/>
+        </action>
+
+        <action id="ServiceAction"
+                class="com.code.action.ServiceAction"
+                text="Generate Service"
+                description="Generate Service interface and implementation">
+            <add-to-group group-id="SklCodeGenerateGroup"/>
+        </action>
+
+        <action id="ServiceQueryAction"
+                class="com.code.action.ServiceQueryAction"
+                text="Generate Service Query"
+                description="Generate Service Query layer">
+            <add-to-group group-id="SklCodeGenerateGroup"/>
+        </action>
+
+        <action id="ServiceResultsAction"
+                class="com.code.action.ServiceResultsAction"
+                text="Generate Service Results"
+                description="Generate Service Result wrapper classes">
+            <add-to-group group-id="SklCodeGenerateGroup"/>
+        </action>
+
+        <action id="MapperAction"
+                class="com.code.action.MapperAction"
+                text="Generate Mapper"
+                description="Generate Mapper interface and XML">
+            <add-to-group group-id="SklCodeGenerateGroup"/>
+        </action>
+
+    </actions>
+
+</idea-plugin>
