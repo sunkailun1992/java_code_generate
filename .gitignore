@@ -40,3 +40,6 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+### IDE 与系统文件 ###
+.idea/
+.DS_Store
